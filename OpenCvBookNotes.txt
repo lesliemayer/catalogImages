@@ -1,0 +1,122 @@
+
+Region of Interest (ROI) :
+
+xoffset, yoffset, height, width, coi (channel of interest).  Once it is set, functions that would
+normally operate on the entire image act only on ROI if set.
+
+Every function allows operation to be limited to a subregion.  To turn ROI on or off, use 
+cvSetImageROI() and cvResetImageROI().  
+
+Example using ROI : increment all of pixes in a region
+
+If ROI is set along w/ a mask, processing will be restricted to intersection of ROI and mask.
+Masks can be used only in functions that specify their use.
+
+
+Smoothing : 
+
+The median filter replaces each pixel by the median or "middle" pixel value in
+a neighborhood around the center pixel.  Simple blurring by averaging
+can be sensitive to noisy images, especially images w/ large isolated outlier
+points (sometimes called "shot noise").  Large differences in even a small
+# of points can cause a noticeable movement in the avg value.  Median
+filtering is able to ignore outliers by selecting the middle points.
+
+Gaussian smoothing :
+The most useful.  1st 2 parameters give width, height of filter window;
+optional 3rd parameter is sigma value (1/2 width at 1/2 max) of the gaussian
+kernel.  If 3rd parameter not specified, a formula uses the window size to
+get the sigma (see p. 112 of OpenCV book)
+
+4th parameter is to make the kernel asymmetric.
+
+If 3rd & 4th parameters are given but 1st two are set to 0, the size of window
+automatically determined from the value of sigma.
+
+OpenCV has higher performance optimization for several common kernels, 3x3,
+5x5, 7x7 with the "standard" sigma (ie param3 = 0)
+
+Gaussian blur supports 1 or 3 channel images in 8-bit or 32-bit floating point
+
+
+To shrink an image, it will generally look best with CV_INTER_AREA 
+interpolation, whereas to enlarge an image, it will generally look best 
+with CV_INTER_CUBIC (slow) or CV_INTER_LINEAR (faster but still looks OK).
+
+
+Bilateral filtering : edge preserving smoothing
+(gaussian smoothing smooths away the edges) 
+Can think of bilateral filtering as gaussian smoothing that weights similiar
+pixels more highly then less similiar ones.  The effect is like a watercolor
+painting of same scene.  This is useful in segmenting the image!!!   The 2nd
+parameter is the width of gaussian kernel in color domain.  The larger value,
+the broader the range of intensities (or colors) included in the smoothing
+(and thus the more extreme a discontinuity must be in order to be preserved)
+
+
+
+Morphological Transformations :
+
+
+Dilation & erosion - used for removing noise, isolating individual elements, 
+& joining disparate elements in an image.  Can also be used to find intensity
+bumps or holes, and to find image gradients.
+
+
+Dilation : causes bright regions in a image to grow (local maximum operator).  
+           The value of a pixel is set to max value of all points covered
+           by the kernel.
+
+Erosion : does the opposite.  Computes local minimum.  Bright regions are
+          isolated & shrunk.  The value of a pixel is set to min value 
+          of all points covered by the kernel.
+
+Default kernel is 3x3 w/ anchor at the center.  
+can also set # of iterations of the morphological transformation.  Can
+make your own kernel using IplConvKernel
+
+Dilation used to find connected components (large discrete regions of similiar
+pixel color or intensity).  Sometimes are large region may be broken apart
+into mulitple components b/c of noise, shadows, or similar effect.  A small
+dilation will cause some components to "melt" together into one.
+
+
+Morphological Opening & Closing :
+
+Are comibinations of erosion & dilation. 
+ 
+Opening erodes, then dilates.  This is often used to count regions in a boolean
+image.  Small bright regions are removed, remaining ones are isolated but
+retain size.  (the outliers go away, but area is retained. see p. 121)
+
+
+Closing dilates then erodes.  Used in connected-component algorithms to
+reduce unwanted or noise-driven segments.  For connected components,
+usually an erode or closing is done to eliminate elements that arise
+purely from noise, then an opening used to connect nearby large regions.
+
+Thought end result of opening/closing is similar to erode/dilation, open
+and close operations tend to preserve area of connected regions more
+accurately.
+
+Open/Closing operatons are approximately area-preserving.  Closing eliminates
+lone outliers lower than neighbors; opening eliminates lone outliers higher
+than neighbors
+
+
+
+------------------------------------------------------------------------------
+
+
+mahalonobis # - use it to test how far away a point is from the median (how
+many standard deviations)
+
+
+
+
+
+
+
+
+
+

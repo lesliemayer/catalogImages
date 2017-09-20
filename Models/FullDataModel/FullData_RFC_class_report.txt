@@ -1,0 +1,12 @@
+             precision    recall  f1-score   support
+
+     Aurora       0.93      0.77      0.84        35
+      Cloud       0.73      0.52      0.61       103
+  Earthlimb       0.76      0.74      0.75       196
+        ISS       0.92      0.71      0.80        17
+       Land       0.97      0.98      0.97      2621
+  Limbnight       0.92      0.97      0.95        73
+      Lunar       1.00      0.93      0.97        30
+      Night       0.98      0.99      0.98       418
+
+avg / total       0.95      0.95      0.95      3493

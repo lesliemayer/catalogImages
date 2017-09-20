@@ -1,0 +1,739 @@
+Things the should be classified :
+90-100% clouds
+limb images
+astronomical objects
+cities at night
+dark earth obs (all black)
+
+features : water, clouds high oblique, dark earth obs, night sky, lots of atmospheric limb,
+           space station
+
+features on land : could ask Will - farmland, mountains, forest
+
+
+==============================================================================
+Janice classifying code :
+==============================================================================
+
+F:\imagews\ :
+
+
+
+ML_classify.py  :
+
+orig: https://gurus.pyimagesearch.com/topic/decision-trees/ (modified)
+C:\Users\lrmayer\Documents\Mayer\CatalogImages\Code\
+
+# usage: python ML_classify.py --train training --test STS081
+training - path to training set
+test - dataset to classify
+"--forest", type=int, default=1, help="whether or not Random Forest should be used")
+
+Sept 19, 2016 - i added logging file to this, and log argument
+              - running
+
+This is computing Haralick textures and color means & std dev of the image to describe it
+
+
+
+Cluster_hist.py : 
+
+# original: pyimagesearch_gurus_10.3
+
+# usage: python Cluster_hist.py  --dataset images --clusters 2
+
+dataset - path to input dataset directory
+clusters - # of clusters to generate
+
+results of k-mean clustering are stored in :
+Python_Scripts\OpenCV2\kmeans_results.csv
+C:\Users\lrmayer\Documents\Mayer\CatalogImages\Code
+
+
+
+descriptor.py :
+
+# This image descriptor script creates a 3D RGB histogram
+# with 8 bins per red, green and blue channels. 
+
+Looks like the same rgb histogram decriber used in the Case Studies book 
+
+
+
+index.py ::
+# This script will loop the descriptor over an image dataset,
+# extract a 3D RGB histogram from each image, store the
+# features in a dictionary, and write the dictionary to file.
+
+
+search_external.py :  - sorts images based on how similiar they are to a query image.  Similiarity
+                        is calculated from chi square difference in the histograms
+# USAGE
+# python search_external.py --dataset images --index index.cpickle --query queries/rivendell-query.png
+# just run index.py and this script, no need for descriptor or searcher_class
+
+#  This script defines the Searcher class and distance
+# measurements for the search query (search_external.py)
+
+dataset - Path to the directory that contains the images we just indexed
+index - path to where we stored our index
+query - path to query image
+
+
+
+==================================================================================
+
+===========================================
+# classifier for classifying faces :
+Haar Cascade classifier (comes w/ OpenCV)
+===========================================
+
+Case studies note about building a classifier :
+
+"Building our own classifier is certainly outside the scope
+of this case study. But if we wanted to, we would need a
+lot of “positive” and “negative” images. Positive images
+would contain images with faces, whereas negative images
+would contain images without faces. Based on this dataset,
+we could then extract features to characterize the face (or
+lack of face) in an image and build our own classifier. It
+would be a lot of work, and very time consuming"
+
+
+"these classifiers work by scanning an image from
+left to right, and top to bottom, at varying scale sizes. Scanning
+an image from left to right and top to bottom is called
+the “sliding window” approach.
+As the window moves from left to right and top to bottom,
+one pixel at a time, the classifier is asked whether or
+not it “thinks” there is a face in the current window, based
+on the parameters supplied to the classifier."
+
+Haar-like features are edges, lines & center-surround features (black dot surrounded
+by white).  Cascading means that classifying is done as a cascade?  Does it pass this test? 
+Does it pass the next more stringent test?  & so on
+
+
+# object tracking : 
+example in case studies is tracking a blue iphone,  using thresholding on the color blue,
+and drawing a contour around the thresholded image
+
+# eye tracking :
+1st, find face, then within face, look for the eyes (using premade face & eye cascade classifiers)
+
+HOG (Histogram of Oriented Gradients) :
+   Use for analyzing curves (like numbers, after reduced to edges or contours) - see digits
+   example in "Case Studies" book
+
+
+kmeans clustering : 
+Finds centers of clusters and groups input samples around the clusters.  Use for grouping the main colours?
+
+
+content based image retrieval (CBIR) :the application of computer vision techniques to the image 
+         retrieval problem, that is, the problem of searching for digital images in large databases.
+         "Content-based" means that the search analyzes the contents of the image rather than the 
+         metadata such as keywords, tags, or descriptions associated with the image. The term "content" 
+         in this context might refer to colors, shapes, textures, or any other information that 
+         can be derived from the image itself.
+
+         Different implementations of CBIR make use of different types of user queries.
+
+         Query by example is a query technique that involves providing the CBIR system with an example 
+         image that it will then base its search upon. The underlying search algorithms may 
+         vary depending on the application, but result images should all share common elements 
+         with the provided example
+
+         Options for providing example images to the system include:
+
+         A preexisting image may be supplied by the user or chosen from a random set.
+         The user draws a rough approximation of the image they are looking for, for 
+              example with blobs of color or general shapes.
+
+
+         Semantic retrieval
+         Semantic retrieval starts with a user making a request like "find pictures of Abraham Lincoln". 
+         This type of open-ended task is very difficult for computers to perform - Lincoln may not always 
+         be facing the camera or in the same pose. Many CBIR systems therefore generally make use of 
+         lower-level features like texture, color, and shape. These features are either used in combination 
+         with interfaces that allow easier input of the criteria or with databases that have already 
+         been trained to match features (such as faces, fingerprints, or shape matching). However, in 
+         general, image retrieval requires human feedback in order to identify higher-level concepts
+
+
+
+         Relevance feedback (human interaction)
+         Combining CBIR search techniques available with the wide range of potential users and their 
+         intent can be a difficult task. An aspect of making CBIR successful relies entirely on the 
+         ability to understand the user intent.[6] CBIR systems can make use of relevance feedback, 
+         where the user progressively refines the search results by marking images in the results 
+         as "relevant", "not relevant", or "neutral" to the search query, then repeating the search 
+         with the new information. Examples of this type of interface have been developed
+
+
+         Iterative/machine learning
+         Machine learning and application of iterative techniques are becoming more common in CBIR
+
+
+        Content comparison using image distance measures
+        The most common method for comparing two images in content-based image retrieval 
+        (typically an example image and an image from the database) is using an image distance measure. 
+        An image distance measure compares the similarity of two images in various dimensions 
+        such as color, texture, shape, and others. For example, a distance of 0 signifies an exact 
+        match with the query, with respect to the dimensions that were considered. As one may 
+        intuitively gather, a value greater than 0 indicates various degrees of similarities 
+        between the images. Search results then can be sorted based on their distance to the queried image.
+        Many measures of image distance (Similarity Models) have been developed
+
+       Color
+       Computing distance measures based on color similarity is achieved by computing a color 
+       histogram for each image that identifies the proportion of pixels within an image holding 
+       specific values. Examining images based on the colors they contain is one of the most 
+       widely used techniques because it can be completed without regard to image size or orientation. 
+       However, research has also attempted to segment color proportion by region and by spatial 
+       relationship among several color regions
+
+       Texture
+       Texture measures look for visual patterns in images and how they are spatially defined. 
+       Textures are represented by texels which are then placed into a number of sets, depending 
+       on how many textures are detected in the image. These sets not only define the texture, 
+       but also where in the image the texture is located.
+       Texture is a difficult concept to represent. The identification of specific textures in an image is achieved primarily by modeling texture as a two-dimensional gray level variation. The relative brightness of pairs of pixels is computed such that degree of contrast, regularity, coarseness and directionality may be estimated.[3][11] The problem is in identifying patterns of co-pixel variation and associating them with particular classes of textures such as silky, or rough.
+       Other methods of classifying textures include:
+       Co-occurrence matrix
+       Laws texture energy
+       Wavelet transform
+       Orthogonal transforms (Discrete Tchebichef moments)
+
+       Shape
+       Shape does not refer to the shape of an image but to the shape of a particular region 
+       that is being sought out. Shapes will often be determined first applying segmentation 
+       or edge detection to an image. Other methods use shape filters to identify given shapes 
+       of an image. Shape descriptors may also need to be invariant to translation, rotation, and scale.
+
+       Some shape descriptors include:
+       Fourier transform
+       Moment invariant
+       Image retrieval evaluation
+
+       Measures of image retrieval can be defined in terms of precision and recall. 
+
+Classifying flowers w/ 3D RGB histogram openCV example : (from Case Studies book)
+rgbhistogram.py : characterizes the color of the flower petals
+
+Janice email :
+=====================================================================
+
+Hi Everyone,
+Mike gave me a set of criteria that I can use to determine which of our CEO imagery was uncatalogable, and I wanted to ask if anyone had anything they might want to add to this list:
+
+1)	Imagery that is 90% or more clouds/water
+2)	High oblique imagery: where the geometric center of the image is above or near the horizon
+3)	Imagery with little to no illumination; nothing recognizable
+4)	High resolution (1150s) imagery with random features that can’t be identified
+
+
+Hi Lisa,
+Here’s what we just talked about earlier:
+
+I’m currently working on a script that compares a sample image with all the uncatalogued images 
+in our database (I’ll be running the script on the images stored in \\eo-web\, and I’ll go through 
+them by increment).  The script will tell me which of these images match my sample image.  
+I can then generate an excel file of MRF numbers for the UT RGV students to catalog.  So far, 
+I’ve found better success with finding images that are of the night sky (moon shots, or early ISS 
+assembly images), so I was thinking we could send these to the students for them to catalog without 
+a center point.  I’d like for them to add features specifying “moon”, or “ISS Svezda”, something like that.   
+
+I think this is a good place to start with.  I can’t guarantee that I’ll get the cloud sample 
+image to work, so that might be something for the Texas State Students to QA for me, since I’m 
+also getting glacier images in my results.  So far, I’ve run the script on a total of 100 images.  
+Right now the script only takes a few seconds to run on a batch of 30 images.  But I think I can 
+reasonably go through about a few hundred per day.  
+
+Hi Will and Lisa,
+Attached is the abstract with a preliminary estimate on the accuracy of the algorithm.  
+I wasn’t able to go through as many images as I would have liked, so the numbers that I’ve quoted 
+are still fluid.  In general, most machine learning algorithms are measured by their precision and 
+recall rate, so I’ve also included those as well.
+
+======================================================================
+
+
+
+Haar Cascade Classifiers :
+Use Haar-like features for object recognition.  Haar-like features consider rectangular boxes, where for 
+each box the intensity is summed and the difference b/t 2 boxes is looked at.  
+The boxes are constructed inside a moving window (not sure about this).
+For faces, eyes are darker than cheek, therefore a haar classifier for the face is 2 adjacent
+rectangular boxes, 1 dark, 1 light.   A cascade of criteria's are used to make more & more 
+stringent decisions about whether this is a face.
+
+See descriptions of haar cascade classifiers :
+https://www.youtube.com/watch?v=0WBUlRADBd0
+https://en.wikipedia.org/wiki/Haar-like_features
+
+
+======================================================================================================
+
+sklearn.metrics.classification_report :
+
+print(classification_report(y_true, y_pred, target_names=target_names))
+               precision    recall  f1-score   support
+
+    class 0       0.50      1.00      0.67         1
+    class 1       0.00      0.00      0.00         1
+    class 2       1.00      0.67      0.80         3
+
+avg / total       0.70      0.60      0.61         5
+
+fp (False positive) : identification of an image as being Lunar, when it is not lunar
+fn (False Negative) : identification of an image as not being Lunar, when in fact it is lunar
+
+
+The precision is the ratio tp / (tp + fp) where tp is the number of true positives and fp the 
+number of false positives. The precision is intuitively the ability of the classifier 
+not to label as positive a sample that is negative.  (precision = 1.0 : no false positives,
+higher false positives, lower precision score)  A measure of the false positives.
+
+The recall is the ratio tp / (tp + fn) where tp is the number of true positives and fn 
+the number of false negatives. The recall is intuitively the ability of the classifier 
+to find all the positive samples. (precision = 1.0 : no false negatives,  higher false
+negatives, lower recall score) A measure of the false negatives.
+
+
+Example above : 
+class 0 had some false postivies, no false negatives
+class 1 had no true positives
+class 2 had no false positives, some false negatives
+
+
+The F-beta score can be interpreted as a weighted harmonic mean of the precision and recall, 
+where an F-beta score reaches its best value at 1 and worst score at 0.
+The F-beta score weights recall more than precision by a factor of beta. beta == 1.0 means 
+recall and precision are equally important.  (Beta = 1.0 is the default)
+
+The f1-score gives you the harmonic mean of precision and recall. The scores corresponding 
+to every class will tell you the accuracy of the classifier in classifying the data points 
+in that particular class compared to all other classes.
+
+harmonic mean = n/(1/p + 1/r)  where n = 2 (only 2 scores to avg)  Closer to 1 is better
+	      = 2/(1/1 + 1/1) = 1
+              = 2/(1./.5 + 1.) = .67
+              = 2/(1./.5 + 1./.5) = .5
+
+
+
+The support is the number of occurrences of each class in y_true. (Ex. there were
+1 y_true values in class 0, 3 y_true values in class 2 in the above example)
+
+
+
+
+Random Forest Classifier :
+
+Random forests or random decision forests are an ensemble learning method for 
+classification that operate by constructing a 
+multitude of decision trees at training time and outputting the class that is 
+the mode of the classes (classification). 
+Random decision forests correct for decision trees' habit of 
+overfitting to their training set.
+
+See good description : https://www.quora.com/How-does-randomization-in-a-random-forest-work
+
+
+
+
+K-means cluster : 
+Grouping images by how alike they are.   Janice code uses the Lab color histogram as
+as descriptor for the images.
+
+
+
+
+Invariant descriptor : 
+
+Terminology: Invariant or Covariant?
+When a transformation is applied to an image,
+an invariant measure remains unchanged.
+a covariant measure changes in a way
+consistent with the image transformation
+
+Keypoint detectors and local invariant descriptors (like BRISK, SIFT) :
+
+useSIFT, a boolean indicating
+whether the SIFT keypoint detector and descriptor should
+be used or not.  (see Case Studies Amazon book cover example)
+
+OpenCV 3 has still retained many non-patented keypoint
+detectors and local invariant descriptors such as BRISK, ORB,
+KAZE, and AKAZE. Rather than using SIFT to build our
+book cover identification system like we did in the 1st edition
+of this book, we’ll instead be using BRISK – the code
+will change slightly, but our results will still be the same.
+
+The keypoint detection is the “detect” phase, whereas the
+actual description of the region is the “compute” phase.
+
+The list of keypoints contain multiple KeyPoint objects which
+are defined by OpenCV. These objects contain information
+such as the (x, y) location of the keypoint, the size of the
+keypoint, and the rotation angle, amongst other attributes.
+
+
+http://www.cs.utexas.edu/~grauman/courses/fall2009/papers/local_features_synthesis_draft.pdf :
+
+In the previous chapter, we have seen recognition approaches based on comparisons
+of entire images or entire image windows. Such approaches are well-suited for learning
+global object structure, but they cannot cope well with partial occlusion, strong
+viewpoint changes, or with deformable objects.
+
+Significant progress on those problems has been made in the past decade
+through the development of local invariant features. Those features allow an application
+to find local image structures in a repeatable fashion and to encode them
+in a representation that is invariant to a range of image transformations, such as
+translation, rotation, scaling, and affine deformation. The resulting features then
+form the basis of approaches for recognizing specific objects, which we discuss in
+Chapter 4, and for recognizing object categories, as we describe in Chapter 7.
+
+
+
+Meeting w/ Will, Melissa, Lisa, & Andie :
+
+Earthlimb - label this 1st, but these also have aurora in them.  0-28mm -> will have earthlimb
+Could find Aurora in all images that are earthlimb?  >28mm, could still be earthlimb (check on this)
+Can also have aurora in nadir images!!! But most are when they are earthlimb.
+
+Is aurora always at night?  or are there daytime images too
+
+High oblique images (hard to georeference) can be earthlimb, or not
+
+
+-----------
+
+Histogram equalization is good for improving contrasts in images
+
+----------
+
+OpenCV provides methods to find “curves” in an image,
+called contours. A contour is a curve of points, with no
+gaps in the curve. Contours are extremely useful for such
+things as shape approximation and analysis.
+In order to find contours in an image, you need to first obtain
+a binarization of the image, using either edge detection
+methods or thresholding. In the examples below, we’ll use
+the Canny edge detector to find the outlines of the coins,
+and then find the actual contours of the coins.
+
+
+-----------------------
+
+Other ideas for finding aurora : 
+
+Use thresholding to mask out the dark areas, then run histogram classification on the 
+unmasked areas.  - Maybe be able to get the max value of pixels & use that to 
+threshold for aurora green
+
+Green in the night limb is AIRGLOW : https://en.wikipedia.org/wiki/Airglow
+
+Also,  measure size of largest contour around a green area, to determine if its
+really an aurora, or spots on some other image 
+(see F:\imagews\training/Night_ISS028-E-24395.jpg)
+
+Example of red/pink aurora :
+F:\Copied D Drive\Python_Scripts\OpenCV2\datas1\ISS037-E-10618.jpg
+F:\Copied D Drive\Python_Scripts\OpenCV2\datas1\ISS037-E-10619.jpg
+F:\Copied D Drive\Python_Scripts\OpenCV2\datas1\ISS037-E-10620.jpg
+F:\Copied D Drive\Python_Scripts\OpenCV2\datas1\ISS037-E-10621.jpg
+F:\Copied D Drive\Python_Scripts\OpenCV2\datas1\ISS037-E-10622.jpg
+F:\Copied D Drive\Python_Scripts\OpenCV2\datas1\ISS037-E-10623.jpg
+
+
+--------------------
+
+Can check blurryness of an image : see 
+http://stackoverflow.com/questions/7765810/is-there-a-way-to-detect-if-an-image-is-blurry
+
+-----------------------
+
+Global Image Descriptors :
+
+• Tiny images (Torralba et al, 2008)
+• Color histograms
+• Self-similarity (Shechtman and Irani, 2007)
+• Geometric class layout (Hoiem et al, 2005)
+• Geometry-specific histograms (Lalonde et al, 2007)
+
+These 4 are texture features :
+• Dense and Sparse SIFT histograms
+• Berkeley texton histograms (Martin et al, 2001)
+• HoG 2x2 spatial pyramids
+• Gist scene descriptor (Oliva and Torralba, 2008)
+
+
+-----------------------------------------------------
+
+Why use HSV vs RGB color space :
+
+unlike RGB, HSV separates luma, or the image intensity, from chroma or the color 
+information. This is very useful in many applications. For example, if you want to 
+do histogram equalization of a color image, you probably want to do that only on the 
+intensity component, and leave the color components alone. Otherwise you will get very 
+strange colors.
+
+In computer vision you often want to separate color components from intensity for various 
+reasons, such as robustness to lighting changes, or removing shadows.
+
+Note, however, that HSV is one of many color spaces that separate color from intensity 
+(See YCbCr, Lab, etc.). HSV is often used simply because the code for converting between 
+RGB and HSV is widely available and can also be easily implemented. 
+
+Another popular option is LAB color space, where the AB channels represent the color 
+and euclidean distances in AB space better match the human perception of color. 
+Again, ignoring the L channel (Luminance) makes the algorithm more robust to 
+lighting differences.
+
+
+*********************************************************************************
+---------------------------------------------------------------------------
+python code to display values of hsv by hovering over the pixel :
+
+C:\Users\lrmayer\Documents\Mayer\SoftwareLanguages\Python\ImageProcessing
+
+----------------------------------------------------------------------------
+*********************************************************************************
+
+
+Blob detection :
+
+https://www.learnopencv.com/blob-detection-using-opencv-python-c/
+
+What is a Blob ?
+A Blob is a group of connected pixels in an image that share some common property 
+( E.g grayscale value ). In the image above, the dark connected regions are blobs, 
+and the goal of blob detection is to identify and mark these regions.
+
+SimpleBlobDetector Example
+
+OpenCV provides a convenient way to detect blobs and filter them based on different characteristics. 
+
+To get the X and Y position of the very center of your blob, you can use
+x = keypoints[i].pt[0]
+y = keypoints[i].pt[1]
+
+Where [i] is the current blob that you want to grab the center of.
+--------------------------------------------
+
+color model:
+example : trying to find blood in an image :
+Try some color based segmentation. Try something simple first -- convert image to 
+HSV color space, and see if you can simply thresholds the channels to extract the blood region. 
+Alternatively, you can build a simple gaussian model for the color of blood and use it to 
+estimate the probability if a given color is blood-like.
+
+-----------------------------------------------------
+http://www.pyimagesearch.com/2016/10/31/detecting-multiple-bright-spots-in-an-image-with-python-and-opencv/
+
+# perform a series of erosions and dilations to remove
+# any small blobs of noise from the thresholded image
+thresh = cv2.erode(thresh, None, iterations=2)
+thresh = cv2.dilate(thresh, None, iterations=4)
+
+---------------------------------------------------------
+
+Idea : measure the amount of blackness & add that info to the database.
+Idea : series pictures - figure out which is a long series, or is this already being done?
+Idea : find circle window in ISS, mark photo "ISS window"
+Idea : use segmentation to get general features of image,  use that for feature detection (ISS window, moon)
+   - check color of circle found
+
+In jpg metadata F:\imagews\images82\ISS030-E-184263.jpg (and others close to it) : 
+Comments : IR-MOD  - infrared modified image???
+
+------------------------------------------------------
+
+Idea : for determining if earthlimb in picture : threshold/edge detect to quantize, then
+train a model w/ quantized earth limb images
+
+Idea : use opencv matchshapes to find an object (earthlimb).   Make some contours from known
+earthlimb images, save those, and use to compare to contours found by edge detection or thresholding.
+see https://rdmilligan.wordpress.com/2015/01/12/opencv-contours-for-pac-man/   for sample matchshape
+code
+http://www.pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-python-opencv/
+https://www.youtube.com/watch?v=ES2KBnE-Be8
+https://www.youtube.com/watch?v=IPsaqKmErgs
+
+What is background subtraction?  check into this
+
+-------------------------------
+
+Idea for lightning : start w/ blob detection, then check color of the blob.
+Another method : Use clustering to find the lightning groups????
+
+
+------------------------------
+
+try median filter (smoothing) for finding segments???  see page 112 of Learning OpenCV book
+
+---------------------------
+
+Scaling
+
+Scaling is just resizing of the image. OpenCV comes with a function cv2.resize() for this purpose. 
+The size of the image can be specified manually, or you can specify the scaling factor. Different 
+interpolation methods are used. Preferable interpolation methods are cv2.INTER_AREA for shrinking 
+and cv2.INTER_CUBIC (slow) & cv2.INTER_LINEAR for zooming. By default, interpolation method used 
+is cv2.INTER_LINEAR for all resizing purposes. You can resize an input image either of following methods:
+
+res = cv2.resize(img,None,fx=2, fy=2, interpolation = cv2.INTER_CUBIC) 
+#OR
+height, width = img.shape[:2]
+res = cv2.resize(img,(2*width, 2*height), interpolation = cv2.INTER_CUBIC)
+
+------------------------------
+
+Lightning : mask out the black area (area above the limb)
+- this way will get rid of the stars
+Can I use blob detection to get the area above the limb?????
+Write sun elevation on the lightning images to get sense of how dark sky/limb is
+
+Use color & blob detection to find possible lightning, then refine w/ image registration
+and change detection (find photos that might have lightning, see if there is one close & time,
+take the difference to find the lightning)  (Will have to check the focal length too)
+
+-------------------------------------
+Smoothing :
+Use bilateral when it is necessary to preserve edges (like in finding the limb, or blob detection???)
+
+Could also do successive bilateral smoothings to preserve edges, but smooth out the colors (
+a more cartoon like apperance. See bottom of 
+http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/MANDUCHI1/Bilateral_Filtering.html)
+
+Bilateral filtering removes texture but keeps the edges (based on color intensity)  - keeps the
+shapes better 
+
+-------------------------------------------------
+Aligning 2 images : Image Registration :
+
+http://docs.opencv.org/trunk/db/d61/group__reg.html
+
+-------------------------------------------
+
+
+Template Matching : use to find certain objects in images?  or use SIFT or sift-like algorithm?
+
+
+-----------------------------------
+
+Mark blurry images 1st?  Remove from lightning search?  or other kinds of searches?
+
+------------------------------------------------
+
+Use histogram equalization to enhance the contrast b/f doing blob detection or edge detection?
+
+see :  https://www.packtpub.com/mapt/book/application-development/9781785283932/2/ch02lvl1sec26/Enhancing+the+contrast+in+an+image
+
+-----------------------------
+
+Idea : use stars to find night limb pictures :  do some morphology to enhance stars (dilation, closing....)
+
+
+--------------------------------------------------
+
+Idea : check focal length to get approx contour shape of the lightning
+
+------------------------------------------------------------
+
+
+Lightning detection : start with images that have limb, and sun elevation < X (can't really see lightning if not
+dark enough: bright spot on horizon in night pics washes out the lightning blobs).  Check the focal length: may 
+only want to use ones that are < Z
+
+--------------------------------------------
+
+
+Horizon detection:
+
+Our first attempt at horizon detection used OpenCV’s Canny transform to find edges 
+in the video—the output being a black and white image with white indicating edge 
+pixels—and the cv2.HoughLinesP transform to obtain the start and end points of detected line segments.
+
+Get edges, fit line to it :
+edges = cv2.Canny(
+            cv2.resize(cv2.split(img)[0], (width / 4, height / 4), 0, 0, cv2.INTER_NEAREST),
+            200, 600, apertureSize=3)
+
+        vx, vy, x0, y0 = cv2.fitLine(np.argwhere(edges == 255), 2, 0, 0.01, 0.01)  # 2 = CV_DIST_L2
+
+        horizonf.write("%.6f,%.6f,%.6f,%.6f\n" % (vx * 4, vy * 4, x0 * 4, y0 * 4))
+
+
+-------------------------
+
+Flood fill above the earthlimb contour line to mask?  Detect if it's limb by checking std dev of color
+
+Can get a bounding box of the contour line
+
+
+--------------------------
+
+Otsu thresholding on limb segments - night images  - not working on -40 , -41
+
+-------------
+
+Cornall's theorem : horizon detection?
+
+----------------------------------------------------------------------------------
+
+WHERE IMAGES ARE :
+
+
+\\EO-Web\images\ESC\large\ISS045
+\\EO-Web\images\EFS\highres\
+
+----------------------------------------------------------------------------------
+
+
+Thresholding :
+
+Simple Thresholding :
+
+ If pixel value is greater than a threshold value, it is assigned one 
+value (may be white), else it is assigned another value (may be black). 
+The function used is cv2.threshold. First argument is the source image, 
+which should be a grayscale image (or 1d). Second argument is the threshold value 
+which is used to classify the pixel values. Third argument is the maxVal 
+which represents the value to be given if pixel value is more than 
+(sometimes less than) the threshold value. OpenCV provides different 
+styles of thresholding and it is decided by the fourth parameter of the function. 
+
+Different types are:
+
+cv2.THRESH_BINARY
+cv2.THRESH_BINARY_INV
+cv2.THRESH_TRUNC
+cv2.THRESH_TOZERO
+cv2.THRESH_TOZERO_INV
+
+Example : threshold = 50 (everything > 50 set to 255)
+ret, thresh = cv2.threshold(closed, threshold, 255, cv2.THRESH_BINARY)
+
+See :
+
+http://docs.opencv.org/trunk/d7/d4d/tutorial_py_thresholding.html
+
+
+
+--------------------------------------------------------------------
+
+Get imagemagick,  see if there is anything I could use (try stitching 2 images)
+
+
+
+
+
+
+
+
+
+
+
