@@ -1,0 +1,1301 @@
+INFO:root:input path is \\EO-Web\images\ESC\large\ISS048
+INFO:root:log level : debug
+DEBUG:root:FileList : __init__ : list = E:\LightningSequences\ISS048_lightning_seq.txt
+DEBUG:root:fileList = ['ISS048-E-51060.jpg', 'ISS048-E-51061.jpg', 'ISS048-E-51062.jpg', 'ISS048-E-51063.jpg', 'ISS048-E-51064.jpg', 'ISS048-E-51065.jpg', 'ISS048-E-51066.jpg', 'ISS048-E-51067.jpg', 'ISS048-E-51068.jpg', 'ISS048-E-51069.jpg', 'ISS048-E-51070.jpg', 'ISS048-E-51071.jpg', 'ISS048-E-51072.jpg', 'ISS048-E-51073.jpg', 'ISS048-E-51074.jpg', 'ISS048-E-51075.jpg', 'ISS048-E-51076.jpg', 'ISS048-E-51077.jpg', 'ISS048-E-51078.jpg', 'ISS048-E-51079.jpg', 'ISS048-E-51080.jpg', 'ISS048-E-51081.jpg', 'ISS048-E-51082.jpg', 'ISS048-E-51083.jpg', 'ISS048-E-51084.jpg', 'ISS048-E-51085.jpg', 'ISS048-E-51086.jpg', 'ISS048-E-51087.jpg', 'ISS048-E-51088.jpg', 'ISS048-E-51089.jpg', 'ISS048-E-51090.jpg', 'ISS048-E-51091.jpg', 'ISS048-E-51092.jpg', 'ISS048-E-51093.jpg', 'ISS048-E-51094.jpg', 'ISS048-E-51095.jpg', 'ISS048-E-51096.jpg', 'ISS048-E-51097.jpg', 'ISS048-E-51098.jpg', 'ISS048-E-51099.jpg', 'ISS048-E-51100.jpg', 'ISS048-E-51101.jpg', 'ISS048-E-51102.jpg', 'ISS048-E-51103.jpg', 'ISS048-E-51104.jpg', 'ISS048-E-51105.jpg', 'ISS048-E-51106.jpg', 'ISS048-E-51107.jpg', 'ISS048-E-51108.jpg', 'ISS048-E-51109.jpg', 'ISS048-E-51110.jpg', 'ISS048-E-51111.jpg', 'ISS048-E-51112.jpg', 'ISS048-E-51113.jpg', 'ISS048-E-51114.jpg', 'ISS048-E-51115.jpg', 'ISS048-E-51116.jpg', 'ISS048-E-51117.jpg', 'ISS048-E-51118.jpg', 'ISS048-E-51119.jpg', 'ISS048-E-51120.jpg', 'ISS048-E-51121.jpg', 'ISS048-E-51122.jpg', 'ISS048-E-51123.jpg', 'ISS048-E-51124.jpg', 'ISS048-E-51125.jpg', 'ISS048-E-51126.jpg', 'ISS048-E-51127.jpg', 'ISS048-E-51128.jpg', 'ISS048-E-51129.jpg', 'ISS048-E-51130.jpg', 'ISS048-E-51131.jpg', 'ISS048-E-51132.jpg', 'ISS048-E-51133.jpg', 'ISS048-E-51134.jpg', 'ISS048-E-51135.jpg', 'ISS048-E-51136.jpg', 'ISS048-E-51137.jpg', 'ISS048-E-51138.jpg', 'ISS048-E-51139.jpg', 'ISS048-E-51140.jpg', 'ISS048-E-51141.jpg', 'ISS048-E-51142.jpg', 'ISS048-E-51143.jpg', 'ISS048-E-51144.jpg', 'ISS048-E-51145.jpg', 'ISS048-E-51146.jpg', 'ISS048-E-51147.jpg', 'ISS048-E-51148.jpg', 'ISS048-E-51149.jpg', 'ISS048-E-51150.jpg', 'ISS048-E-51151.jpg', 'ISS048-E-51152.jpg', 'ISS048-E-51153.jpg', 'ISS048-E-51154.jpg', 'ISS048-E-51155.jpg', 'ISS048-E-51156.jpg', 'ISS048-E-51157.jpg', 'ISS048-E-51158.jpg', 'ISS048-E-51159.jpg', 'ISS048-E-51160.jpg', 'ISS048-E-51161.jpg', 'ISS048-E-51162.jpg', 'ISS048-E-51163.jpg', 'ISS048-E-51164.jpg', 'ISS048-E-51165.jpg', 'ISS048-E-51166.jpg', 'ISS048-E-51167.jpg', 'ISS048-E-51168.jpg', 'ISS048-E-51169.jpg', 'ISS048-E-51170.jpg', 'ISS048-E-51171.jpg', 'ISS048-E-51172.jpg', 'ISS048-E-51173.jpg', 'ISS048-E-51174.jpg', 'ISS048-E-51175.jpg', 'ISS048-E-51176.jpg', 'ISS048-E-51177.jpg', 'ISS048-E-51178.jpg', 'ISS048-E-51179.jpg', 'ISS048-E-51180.jpg', 'ISS048-E-51181.jpg', 'ISS048-E-51182.jpg', 'ISS048-E-51183.jpg', 'ISS048-E-51184.jpg', 'ISS048-E-51185.jpg', 'ISS048-E-51186.jpg', 'ISS048-E-51187.jpg', 'ISS048-E-51188.jpg', 'ISS048-E-51189.jpg', 'ISS048-E-51190.jpg', 'ISS048-E-51191.jpg', 'ISS048-E-51192.jpg', 'ISS048-E-51193.jpg', 'ISS048-E-51194.jpg', 'ISS048-E-51195.jpg', 'ISS048-E-51196.jpg', 'ISS048-E-51197.jpg', 'ISS048-E-51198.jpg', 'ISS048-E-51199.jpg', 'ISS048-E-51200.jpg', 'ISS048-E-51201.jpg', 'ISS048-E-51202.jpg', 'ISS048-E-51203.jpg', 'ISS048-E-51204.jpg', 'ISS048-E-51205.jpg', 'ISS048-E-51206.jpg', 'ISS048-E-51207.jpg', 'ISS048-E-51208.jpg', 'ISS048-E-51209.jpg', 'ISS048-E-51210.jpg', 'ISS048-E-51211.jpg', 'ISS048-E-51212.jpg', 'ISS048-E-51213.jpg', 'ISS048-E-51214.jpg', 'ISS048-E-51215.jpg', 'ISS048-E-51216.jpg', 'ISS048-E-51217.jpg', 'ISS048-E-51218.jpg', 'ISS048-E-51219.jpg', 'ISS048-E-51220.jpg', 'ISS048-E-51221.jpg', 'ISS048-E-51222.jpg', 'ISS048-E-51223.jpg', 'ISS048-E-51224.jpg', 'ISS048-E-51225.jpg', 'ISS048-E-51226.jpg', 'ISS048-E-51227.jpg', 'ISS048-E-51228.jpg', 'ISS048-E-51229.jpg', 'ISS048-E-51230.jpg', 'ISS048-E-51231.jpg', 'ISS048-E-51232.jpg', 'ISS048-E-51233.jpg', 'ISS048-E-51234.jpg', 'ISS048-E-51235.jpg', 'ISS048-E-51236.jpg', 'ISS048-E-51237.jpg', 'ISS048-E-51238.jpg', 'ISS048-E-51239.jpg', 'ISS048-E-51240.jpg', 'ISS048-E-51241.jpg', 'ISS048-E-51242.jpg', 'ISS048-E-51243.jpg', 'ISS048-E-51244.jpg', 'ISS048-E-51245.jpg', 'ISS048-E-51246.jpg', 'ISS048-E-51247.jpg', 'ISS048-E-51248.jpg', 'ISS048-E-51249.jpg', 'ISS048-E-51250.jpg', 'ISS048-E-51251.jpg', 'ISS048-E-51252.jpg', 'ISS048-E-51253.jpg', 'ISS048-E-51254.jpg', 'ISS048-E-51255.jpg', 'ISS048-E-51256.jpg', 'ISS048-E-51257.jpg', 'ISS048-E-51258.jpg', 'ISS048-E-51259.jpg', 'ISS048-E-51260.jpg', 'ISS048-E-51261.jpg', 'ISS048-E-51262.jpg', 'ISS048-E-51263.jpg', 'ISS048-E-51264.jpg', 'ISS048-E-51265.jpg', 'ISS048-E-51266.jpg', 'ISS048-E-51267.jpg', 'ISS048-E-51268.jpg', 'ISS048-E-51269.jpg', 'ISS048-E-51270.jpg', 'ISS048-E-51271.jpg', 'ISS048-E-51272.jpg', 'ISS048-E-51273.jpg', 'ISS048-E-51274.jpg', 'ISS048-E-51275.jpg', 'ISS048-E-51276.jpg', 'ISS048-E-51277.jpg', 'ISS048-E-51278.jpg', 'ISS048-E-51279.jpg', 'ISS048-E-51280.jpg', 'ISS048-E-51281.jpg', 'ISS048-E-51282.jpg', 'ISS048-E-51283.jpg', 'ISS048-E-51284.jpg', 'ISS048-E-51285.jpg', 'ISS048-E-51286.jpg', 'ISS048-E-51287.jpg', 'ISS048-E-51288.jpg', 'ISS048-E-51289.jpg', 'ISS048-E-51290.jpg', 'ISS048-E-51291.jpg', 'ISS048-E-51292.jpg', 'ISS048-E-51293.jpg', 'ISS048-E-51294.jpg', 'ISS048-E-51295.jpg', 'ISS048-E-51296.jpg', 'ISS048-E-51297.jpg', 'ISS048-E-51298.jpg', 'ISS048-E-51299.jpg', 'ISS048-E-51300.jpg', 'ISS048-E-51301.jpg', 'ISS048-E-51302.jpg', 'ISS048-E-51303.jpg', 'ISS048-E-51304.jpg', 'ISS048-E-51305.jpg', 'ISS048-E-51306.jpg', 'ISS048-E-51307.jpg', 'ISS048-E-51308.jpg', 'ISS048-E-51309.jpg', 'ISS048-E-51310.jpg', 'ISS048-E-51311.jpg', 'ISS048-E-51312.jpg', 'ISS048-E-51313.jpg', 'ISS048-E-51314.jpg', 'ISS048-E-51315.jpg', 'ISS048-E-51316.jpg', 'ISS048-E-51317.jpg', 'ISS048-E-51318.jpg', 'ISS048-E-51319.jpg', 'ISS048-E-51320.jpg', 'ISS048-E-51321.jpg', 'ISS048-E-51322.jpg', 'ISS048-E-51323.jpg', 'ISS048-E-51324.jpg', 'ISS048-E-51325.jpg', 'ISS048-E-51326.jpg', 'ISS048-E-51327.jpg', 'ISS048-E-51328.jpg', 'ISS048-E-51329.jpg', 'ISS048-E-51330.jpg', 'ISS048-E-51331.jpg', 'ISS048-E-51332.jpg', 'ISS048-E-51333.jpg', 'ISS048-E-51334.jpg', 'ISS048-E-51335.jpg', 'ISS048-E-51336.jpg', 'ISS048-E-51337.jpg', 'ISS048-E-51338.jpg', 'ISS048-E-51339.jpg', 'ISS048-E-51340.jpg', 'ISS048-E-51341.jpg', 'ISS048-E-51342.jpg', 'ISS048-E-51343.jpg', 'ISS048-E-51344.jpg', 'ISS048-E-51345.jpg', 'ISS048-E-51346.jpg', 'ISS048-E-51347.jpg', 'ISS048-E-51348.jpg', 'ISS048-E-51349.jpg', 'ISS048-E-51350.jpg', 'ISS048-E-51351.jpg', 'ISS048-E-51352.jpg', 'ISS048-E-51353.jpg', 'ISS048-E-51354.jpg', 'ISS048-E-51355.jpg', 'ISS048-E-51356.jpg', 'ISS048-E-51357.jpg', 'ISS048-E-51358.jpg', 'ISS048-E-51359.jpg', 'ISS048-E-51360.jpg', 'ISS048-E-51361.jpg', 'ISS048-E-51362.jpg', 'ISS048-E-51363.jpg', 'ISS048-E-51364.jpg', 'ISS048-E-51365.jpg', 'ISS048-E-51366.jpg', 'ISS048-E-51367.jpg', 'ISS048-E-51368.jpg', 'ISS048-E-51369.jpg', 'ISS048-E-51370.jpg', 'ISS048-E-51371.jpg', 'ISS048-E-51372.jpg', 'ISS048-E-51373.jpg', 'ISS048-E-51374.jpg', 'ISS048-E-51375.jpg', 'ISS048-E-51376.jpg', 'ISS048-E-51377.jpg', 'ISS048-E-51378.jpg', 'ISS048-E-51379.jpg', 'ISS048-E-51380.jpg', 'ISS048-E-51381.jpg', 'ISS048-E-51382.jpg', 'ISS048-E-51383.jpg', 'ISS048-E-51384.jpg', 'ISS048-E-51385.jpg', 'ISS048-E-51386.jpg', 'ISS048-E-51387.jpg', 'ISS048-E-51388.jpg', 'ISS048-E-51389.jpg', 'ISS048-E-51390.jpg', 'ISS048-E-51391.jpg', 'ISS048-E-51392.jpg', 'ISS048-E-51393.jpg', 'ISS048-E-51394.jpg', 'ISS048-E-51395.jpg', 'ISS048-E-51396.jpg', 'ISS048-E-51397.jpg', 'ISS048-E-51398.jpg', 'ISS048-E-51399.jpg', 'ISS048-E-51400.jpg', 'ISS048-E-51401.jpg', 'ISS048-E-51402.jpg', 'ISS048-E-51403.jpg', 'ISS048-E-51404.jpg', 'ISS048-E-51405.jpg', 'ISS048-E-51406.jpg', 'ISS048-E-51407.jpg', 'ISS048-E-51408.jpg', 'ISS048-E-51409.jpg', 'ISS048-E-51410.jpg', 'ISS048-E-51411.jpg', 'ISS048-E-51412.jpg', 'ISS048-E-51413.jpg', 'ISS048-E-51414.jpg', 'ISS048-E-51415.jpg', 'ISS048-E-51416.jpg', 'ISS048-E-51417.jpg', 'ISS048-E-51418.jpg', 'ISS048-E-51419.jpg', 'ISS048-E-51420.jpg', 'ISS048-E-51421.jpg', 'ISS048-E-51422.jpg', 'ISS048-E-51423.jpg', 'ISS048-E-51424.jpg', 'ISS048-E-51425.jpg', 'ISS048-E-51426.jpg', 'ISS048-E-51427.jpg', 'ISS048-E-51428.jpg', 'ISS048-E-51429.jpg', 'ISS048-E-51430.jpg', 'ISS048-E-51431.jpg', 'ISS048-E-51432.jpg', 'ISS048-E-51433.jpg', 'ISS048-E-51434.jpg', 'ISS048-E-51435.jpg', 'ISS048-E-51436.jpg', 'ISS048-E-51437.jpg', 'ISS048-E-51438.jpg', 'ISS048-E-51439.jpg', 'ISS048-E-51440.jpg', 'ISS048-E-51441.jpg', 'ISS048-E-51442.jpg', 'ISS048-E-51443.jpg', 'ISS048-E-51444.jpg', 'ISS048-E-51445.jpg', 'ISS048-E-51446.jpg', 'ISS048-E-51447.jpg', 'ISS048-E-51448.jpg', 'ISS048-E-51449.jpg', 'ISS048-E-51450.jpg', 'ISS048-E-51451.jpg', 'ISS048-E-51452.jpg', 'ISS048-E-51453.jpg', 'ISS048-E-51454.jpg', 'ISS048-E-51455.jpg', 'ISS048-E-51456.jpg', 'ISS048-E-51457.jpg', 'ISS048-E-51458.jpg', 'ISS048-E-51459.jpg', 'ISS048-E-51460.jpg', 'ISS048-E-51461.jpg', 'ISS048-E-51462.jpg', 'ISS048-E-51463.jpg', 'ISS048-E-51464.jpg', 'ISS048-E-51465.jpg', 'ISS048-E-51466.jpg', 'ISS048-E-51467.jpg', 'ISS048-E-51468.jpg', 'ISS048-E-51469.jpg', 'ISS048-E-51470.jpg', 'ISS048-E-51471.jpg', 'ISS048-E-51472.jpg', 'ISS048-E-51473.jpg', 'ISS048-E-51474.jpg', 'ISS048-E-51475.jpg', 'ISS048-E-51476.jpg', 'ISS048-E-51477.jpg', 'ISS048-E-51478.jpg', 'ISS048-E-51479.jpg', 'ISS048-E-51480.jpg', 'ISS048-E-51481.jpg', 'ISS048-E-51482.jpg', 'ISS048-E-51483.jpg', 'ISS048-E-51484.jpg', 'ISS048-E-51485.jpg', 'ISS048-E-51486.jpg', 'ISS048-E-51487.jpg', 'ISS048-E-51488.jpg', 'ISS048-E-51489.jpg']
+DEBUG:root:imagePaths = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51060.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51061.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51062.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51063.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51064.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51065.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51066.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51067.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51068.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51069.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51070.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51071.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51072.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51073.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51074.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51075.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51076.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51077.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51078.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51079.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51080.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51081.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51082.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51083.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51084.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51085.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51086.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51087.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51088.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51089.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51090.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51091.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51092.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51093.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51094.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51095.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51096.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51097.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51098.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51099.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51100.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51101.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51102.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51103.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51104.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51105.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51106.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51107.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51108.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51109.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51110.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51111.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51112.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51113.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51114.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51115.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51116.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51117.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51118.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51119.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51120.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51121.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51122.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51123.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51124.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51125.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51126.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51127.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51128.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51129.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51130.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51131.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51132.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51133.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51134.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51135.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51136.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51137.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51138.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51139.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51140.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51141.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51142.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51143.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51144.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51145.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51146.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51147.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51148.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51149.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51150.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51151.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51152.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51153.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51154.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51155.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51156.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51157.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51158.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51159.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51160.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51161.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51162.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51163.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51164.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51165.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51166.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51167.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51168.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51169.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51170.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51171.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51172.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51173.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51174.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51175.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51176.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51177.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51178.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51179.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51180.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51181.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51182.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51183.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51184.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51185.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51186.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51187.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51188.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51189.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51190.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51191.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51192.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51193.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51194.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51195.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51196.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51197.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51198.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51199.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51200.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51201.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51202.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51203.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51204.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51205.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51206.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51207.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51208.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51209.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51210.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51211.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51212.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51213.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51214.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51215.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51216.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51217.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51218.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51219.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51220.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51221.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51222.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51223.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51224.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51225.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51226.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51227.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51228.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51229.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51230.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51231.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51232.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51233.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51234.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51235.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51236.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51237.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51238.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51239.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51240.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51241.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51242.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51243.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51244.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51245.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51246.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51247.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51248.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51249.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51250.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51251.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51252.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51253.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51254.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51255.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51256.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51257.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51258.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51259.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51260.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51261.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51262.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51263.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51264.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51265.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51266.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51267.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51268.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51269.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51270.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51271.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51272.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51273.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51274.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51275.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51276.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51277.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51278.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51279.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51280.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51281.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51282.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51283.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51284.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51285.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51286.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51287.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51288.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51289.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51290.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51291.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51292.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51293.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51294.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51295.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51296.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51297.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51298.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51299.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51300.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51301.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51302.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51303.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51304.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51305.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51306.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51307.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51308.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51309.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51310.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51311.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51312.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51313.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51314.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51315.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51316.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51317.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51318.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51319.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51320.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51321.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51322.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51323.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51324.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51325.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51326.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51327.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51328.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51329.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51330.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51331.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51332.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51333.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51334.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51335.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51336.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51337.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51338.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51339.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51340.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51341.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51342.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51343.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51344.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51345.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51346.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51347.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51348.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51349.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51350.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51351.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51352.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51353.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51354.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51355.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51356.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51357.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51358.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51359.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51360.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51361.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51362.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51363.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51364.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51365.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51366.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51367.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51368.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51369.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51370.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51371.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51372.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51373.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51374.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51375.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51376.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51377.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51378.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51379.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51380.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51381.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51382.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51383.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51384.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51385.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51386.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51387.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51388.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51389.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51390.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51391.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51392.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51393.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51394.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51395.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51396.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51397.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51398.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51399.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51400.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51401.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51402.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51403.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51404.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51405.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51406.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51407.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51408.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51409.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51410.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51411.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51412.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51413.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51414.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51415.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51416.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51417.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51418.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51419.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51420.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51421.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51422.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51423.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51424.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51425.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51426.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51427.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51428.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51429.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51430.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51431.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51432.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51433.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51434.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51435.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51436.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51437.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51438.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51439.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51440.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51441.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51442.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51443.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51444.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51445.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51446.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51447.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51448.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51449.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51450.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51451.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51452.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51453.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51454.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51455.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51456.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51457.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51458.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51459.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51460.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51461.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51462.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51463.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51464.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51465.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51466.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51467.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51468.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51469.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51470.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51471.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51472.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51473.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51474.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51475.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51476.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51477.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51478.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51479.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51480.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51481.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51482.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51483.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51484.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51485.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51486.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51487.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51488.jpg
+\\EO-Web\images\ESC\large\ISS048/ISS048-E-51489.jpg
+INFO:root:imagePath is ['\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51060.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51061.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51062.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51063.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51064.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51065.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51066.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51067.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51068.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51069.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51070.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51071.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51072.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51073.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51074.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51075.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51076.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51077.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51078.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51079.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51080.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51081.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51082.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51083.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51084.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51085.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51086.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51087.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51088.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51089.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51090.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51091.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51092.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51093.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51094.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51095.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51096.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51097.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51098.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51099.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51100.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51101.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51102.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51103.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51104.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51105.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51106.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51107.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51108.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51109.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51110.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51111.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51112.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51113.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51114.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51115.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51116.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51117.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51118.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51119.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51120.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51121.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51122.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51123.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51124.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51125.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51126.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51127.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51128.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51129.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51130.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51131.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51132.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51133.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51134.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51135.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51136.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51137.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51138.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51139.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51140.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51141.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51142.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51143.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51144.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51145.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51146.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51147.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51148.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51149.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51150.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51151.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51152.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51153.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51154.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51155.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51156.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51157.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51158.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51159.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51160.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51161.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51162.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51163.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51164.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51165.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51166.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51167.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51168.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51169.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51170.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51171.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51172.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51173.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51174.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51175.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51176.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51177.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51178.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51179.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51180.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51181.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51182.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51183.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51184.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51185.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51186.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51187.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51188.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51189.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51190.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51191.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51192.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51193.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51194.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51195.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51196.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51197.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51198.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51199.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51200.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51201.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51202.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51203.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51204.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51205.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51206.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51207.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51208.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51209.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51210.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51211.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51212.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51213.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51214.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51215.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51216.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51217.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51218.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51219.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51220.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51221.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51222.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51223.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51224.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51225.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51226.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51227.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51228.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51229.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51230.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51231.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51232.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51233.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51234.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51235.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51236.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51237.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51238.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51239.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51240.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51241.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51242.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51243.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51244.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51245.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51246.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51247.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51248.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51249.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51250.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51251.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51252.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51253.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51254.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51255.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51256.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51257.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51258.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51259.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51260.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51261.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51262.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51263.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51264.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51265.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51266.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51267.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51268.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51269.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51270.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51271.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51272.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51273.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51274.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51275.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51276.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51277.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51278.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51279.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51280.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51281.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51282.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51283.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51284.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51285.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51286.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51287.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51288.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51289.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51290.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51291.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51292.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51293.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51294.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51295.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51296.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51297.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51298.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51299.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51300.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51301.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51302.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51303.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51304.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51305.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51306.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51307.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51308.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51309.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51310.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51311.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51312.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51313.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51314.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51315.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51316.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51317.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51318.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51319.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51320.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51321.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51322.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51323.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51324.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51325.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51326.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51327.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51328.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51329.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51330.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51331.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51332.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51333.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51334.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51335.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51336.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51337.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51338.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51339.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51340.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51341.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51342.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51343.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51344.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51345.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51346.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51347.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51348.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51349.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51350.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51351.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51352.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51353.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51354.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51355.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51356.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51357.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51358.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51359.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51360.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51361.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51362.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51363.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51364.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51365.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51366.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51367.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51368.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51369.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51370.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51371.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51372.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51373.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51374.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51375.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51376.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51377.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51378.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51379.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51380.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51381.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51382.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51383.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51384.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51385.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51386.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51387.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51388.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51389.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51390.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51391.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51392.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51393.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51394.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51395.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51396.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51397.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51398.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51399.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51400.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51401.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51402.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51403.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51404.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51405.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51406.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51407.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51408.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51409.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51410.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51411.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51412.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51413.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51414.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51415.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51416.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51417.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51418.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51419.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51420.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51421.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51422.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51423.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51424.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51425.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51426.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51427.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51428.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51429.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51430.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51431.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51432.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51433.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51434.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51435.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51436.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51437.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51438.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51439.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51440.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51441.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51442.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51443.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51444.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51445.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51446.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51447.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51448.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51449.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51450.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51451.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51452.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51453.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51454.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51455.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51456.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51457.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51458.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51459.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51460.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51461.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51462.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51463.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51464.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51465.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51466.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51467.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51468.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51469.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51470.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51471.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51472.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51473.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51474.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51475.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51476.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51477.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51478.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51479.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51480.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51481.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51482.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51483.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51484.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51485.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51486.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51487.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51488.jpg', '\\\\EO-Web\\images\\ESC\\large\\ISS048/ISS048-E-51489.jpg']
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51061.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51060
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51060'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51060
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51060'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51061
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51061'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51061
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51061'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51062
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51062'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51062
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51062'
+DEBUG:root:getLength : field = (-28, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51060.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51061.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51062.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51061.jpg
+INFO:root:d10 = [[ 4  5  0 ...,  0  8 10]
+ [ 0  0  0 ...,  0  0 13]
+ [ 0  0  0 ..., 12 11 11]
+ ..., 
+ [ 0  0  0 ...,  0  1  6]
+ [ 0  0  0 ...,  0  3  9]
+ [ 0  0  0 ...,  1  6  9]]
+INFO:root:d12 = [[ 4  0  0 ...,  2  6 16]
+ [ 0  1  2 ...,  0  0  6]
+ [ 0  1  7 ...,  4  0  1]
+ ..., 
+ [ 0  1  6 ...,  0  4  9]
+ [ 0  0  4 ...,  1  5  7]
+ [ 0  0  2 ...,  8  8  8]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51062.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51061
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51061'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51061
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51061'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51062
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51062'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51062
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51062'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51063
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51063'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51063
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51063'
+DEBUG:root:getLength : field = (-28, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51061.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51062.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51063.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51062.jpg
+INFO:root:d10 = [[0 1 4 ..., 0 0 0]
+ [1 0 0 ..., 1 1 0]
+ [5 0 0 ..., 0 0 0]
+ ..., 
+ [3 0 0 ..., 4 0 0]
+ [4 1 0 ..., 0 0 0]
+ [3 1 0 ..., 0 0 0]]
+INFO:root:d12 = [[ 0  0  2 ...,  0  0  0]
+ [ 0  0  0 ...,  0  4  3]
+ [ 0  0  0 ...,  0  6  8]
+ ..., 
+ [ 1  0  0 ..., 10  5  0]
+ [ 2  0  0 ...,  7  4  0]
+ [ 0  0  0 ...,  1  1  0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51063.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51062
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51062'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51062
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51062'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51063
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51063'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51063
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51063'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51064
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51064'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51064
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51064'
+DEBUG:root:getLength : field = (-28, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51062.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51063.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51064.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51063.jpg
+INFO:root:d10 = [[ 6  1  0 ..., 10  7 15]
+ [ 7  5  2 ...,  4  0  0]
+ [ 5  7  6 ...,  2  0  0]
+ ..., 
+ [ 0  2  4 ...,  0  0  2]
+ [ 0  0  4 ...,  0  0  3]
+ [ 0  1  3 ...,  0  0  6]]
+INFO:root:d12 = [[ 0  0  0 ..., 16 12  6]
+ [ 7  5  3 ..., 11  0  0]
+ [ 5  6  6 ...,  4  0  0]
+ ..., 
+ [ 3  3  3 ...,  0  0  0]
+ [ 0  2  4 ...,  0  0  3]
+ [ 0  0  5 ...,  0  0  5]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51064.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51063
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51063'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51063
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51063'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51064
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51064'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51064
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51064'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51065
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51065'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51065
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51065'
+DEBUG:root:getLength : field = (-28, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51063.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51064.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51065.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51064.jpg
+INFO:root:d10 = [[ 0  2  3 ...,  0  0  0]
+ [ 0  0  0 ...,  0  1  7]
+ [ 0  0  0 ...,  0  7 13]
+ ..., 
+ [ 0  0  0 ...,  3  4  1]
+ [ 0  0  0 ...,  2  3  0]
+ [ 3  0  0 ...,  2  2  0]]
+INFO:root:d12 = [[ 8  2  1 ...,  0  0  1]
+ [ 1  0  0 ...,  0  2  0]
+ [ 0  0  0 ...,  0  2 12]
+ ..., 
+ [ 0  0  0 ...,  2  0  0]
+ [ 0  3  2 ...,  1  0  0]
+ [ 5  6  3 ...,  1  0  0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51065.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51064
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51064'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51064
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51064'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51065
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51065'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51065
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51065'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51066
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51066'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51066
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51066'
+DEBUG:root:getLength : field = (-28, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51064.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51065.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51066.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51065.jpg
+INFO:root:d10 = [[0 0 0 ..., 9 6 0]
+ [0 4 6 ..., 2 0 4]
+ [0 5 8 ..., 0 0 0]
+ ..., 
+ [3 0 0 ..., 0 0 3]
+ [0 0 0 ..., 0 0 3]
+ [0 0 0 ..., 0 0 2]]
+INFO:root:d12 = [[ 0  5  9 ..., 54 53 57]
+ [ 9  9  7 ..., 52 53 65]
+ [ 9  8  4 ..., 60 63 58]
+ ..., 
+ [ 4  2  2 ...,  0  0  2]
+ [ 1  0  0 ...,  0  0  0]
+ [ 0  0  0 ...,  0  0  0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51066.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51065
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51065'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51065
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51065'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51066
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51066'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51066
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51066'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51067
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51067'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51067
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51067'
+DEBUG:root:getLength : field = (-28, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51065.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51066.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51067.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51066.jpg
+INFO:root:d10 = [[6 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 5 1 0]
+ [0 3 2 ..., 4 3 0]
+ [4 6 5 ..., 4 4 2]]
+INFO:root:d12 = [[2 0 0 ..., 5 4 0]
+ [0 0 2 ..., 3 3 0]
+ [0 1 4 ..., 1 2 0]
+ ..., 
+ [0 0 0 ..., 5 4 2]
+ [1 2 3 ..., 4 5 3]
+ [0 0 0 ..., 4 5 3]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51067.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51066
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51066'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51066
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51066'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51067
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51067'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51067
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51067'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51068
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51068'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51068
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51068'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51066.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51067.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51068.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51067.jpg
+INFO:root:d10 = [[0 0 0 ..., 0 0 3]
+ [8 3 0 ..., 0 0 1]
+ [2 0 0 ..., 0 0 0]
+ ..., 
+ [3 3 1 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]]
+INFO:root:d12 = [[0 0 0 ..., 0 2 4]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [3 4 1 ..., 0 0 1]
+ [0 2 0 ..., 0 0 2]
+ [4 7 5 ..., 0 0 2]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51068.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51067
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51067'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51067
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51067'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51068
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51068'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51068
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51068'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51069
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51069'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51069
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51069'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51067.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51068.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51069.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51068.jpg
+INFO:root:d10 = [[6 7 5 ..., 1 0 0]
+ [1 2 1 ..., 1 0 0]
+ [8 9 6 ..., 0 2 2]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [0 0 1 ..., 0 0 0]
+ [0 0 0 ..., 1 0 0]]
+INFO:root:d12 = [[0 1 0 ..., 0 0 0]
+ [0 0 0 ..., 1 0 0]
+ [2 6 2 ..., 0 0 0]
+ ..., 
+ [0 0 3 ..., 0 0 0]
+ [0 0 3 ..., 0 0 0]
+ [0 0 3 ..., 0 0 0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51069.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51068
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51068'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51068
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51068'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51069
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51069'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51069
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51069'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51070
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51070'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51070
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51070'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51068.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51069.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51070.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51069.jpg
+INFO:root:d10 = [[1 0 2 ..., 0 4 6]
+ [6 2 5 ..., 0 2 4]
+ [0 0 0 ..., 0 0 2]
+ ..., 
+ [6 2 0 ..., 6 3 2]
+ [5 3 0 ..., 2 2 6]
+ [4 3 0 ..., 1 2 8]]
+INFO:root:d12 = [[17 10  4 ...,  1  2  3]
+ [13  8  7 ...,  1  3  4]
+ [ 5  5  8 ...,  2  3  4]
+ ..., 
+ [ 4  0  0 ...,  0  0  0]
+ [ 6  1  0 ...,  0  0  0]
+ [ 9  3  0 ...,  0  0  0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51070.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51069
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51069'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51069
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51069'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51070
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51070'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51070
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51070'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51071
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51071'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51071
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51071'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51069.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51070.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51071.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51070.jpg
+INFO:root:d10 = [[ 0  0  0 ...,  0  0  0]
+ [ 0  0  0 ...,  0  0  0]
+ [ 0  0  0 ...,  0  0  0]
+ ..., 
+ [ 0  0  3 ..., 14  8  2]
+ [ 0  0  2 ..., 10  6  3]
+ [ 0  0  3 ...,  1  3  5]]
+INFO:root:d12 = [[0 0 5 ..., 0 3 4]
+ [3 2 0 ..., 0 0 1]
+ [7 4 0 ..., 0 0 0]
+ ..., 
+ [6 2 0 ..., 5 0 0]
+ [5 3 0 ..., 0 0 0]
+ [2 0 0 ..., 0 0 4]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51071.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51070
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51070'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51070
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51070'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51071
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51071'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51071
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51071'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51072
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51072'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51072
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51072'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51070.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51071.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51072.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51071.jpg
+INFO:root:d10 = [[9 3 0 ..., 0 0 0]
+ [0 0 2 ..., 2 1 0]
+ [0 0 5 ..., 4 4 3]
+ ..., 
+ [0 0 2 ..., 0 1 5]
+ [0 0 2 ..., 4 5 2]
+ [0 0 2 ..., 4 4 0]]
+INFO:root:d12 = [[ 0  0  0 ...,  0  0  0]
+ [ 0  0  2 ...,  1  0  0]
+ [ 0  0  1 ...,  4  2  0]
+ ..., 
+ [ 0  1  5 ..., 14 11  3]
+ [ 0  0  2 ..., 12 11  3]
+ [ 0  0  0 ...,  0  6  2]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51072.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51071
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51071'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51071
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51071'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51072
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51072'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51072
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51072'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51073
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51073'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51073
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51073'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51071.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51072.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51073.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51072.jpg
+INFO:root:d10 = [[ 2  8  3 ...,  4  6  6]
+ [ 7 10  0 ...,  0  1  4]
+ [ 7 12  0 ...,  0  0  0]
+ ..., 
+ [ 2  0  0 ...,  0  0  0]
+ [ 4  3  0 ...,  0  0  0]
+ [ 2  2  3 ...,  0  0  0]]
+INFO:root:d12 = [[ 6  9  0 ...,  4  5  5]
+ [ 4 10  3 ...,  0  1  3]
+ [ 1  6  0 ...,  0  0  1]
+ ..., 
+ [ 1  2  0 ...,  0  0  1]
+ [ 2  3  2 ...,  0  0  0]
+ [ 0  0  9 ...,  5  0  0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51073.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51072
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51072'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51072
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51072'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51073
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51073'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51073
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51073'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51074
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51074'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51074
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51074'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51072.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51073.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51074.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51073.jpg
+INFO:root:d10 = [[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 3 1 0]
+ ..., 
+ [0 0 1 ..., 5 3 0]
+ [0 0 0 ..., 2 5 2]
+ [1 0 0 ..., 0 2 3]]
+INFO:root:d12 = [[1 0 0 ..., 1 0 0]
+ [0 0 0 ..., 0 0 0]
+ [1 0 0 ..., 1 0 0]
+ ..., 
+ [0 0 0 ..., 2 0 4]
+ [0 0 0 ..., 4 5 6]
+ [0 0 0 ..., 1 3 3]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51074.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51073
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51073'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51073
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51073'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51074
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51074'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51074
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51074'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51075
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51075'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51075
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51075'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51073.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51074.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51075.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51074.jpg
+INFO:root:d10 = [[0 2 1 ..., 0 0 1]
+ [3 6 5 ..., 0 0 2]
+ [0 1 0 ..., 0 0 2]
+ ..., 
+ [2 3 1 ..., 0 0 0]
+ [3 3 3 ..., 0 0 0]
+ [4 2 5 ..., 0 0 0]]
+INFO:root:d12 = [[0 6 8 ..., 0 0 0]
+ [0 3 4 ..., 1 1 0]
+ [0 0 0 ..., 2 2 0]
+ ..., 
+ [3 2 1 ..., 0 0 0]
+ [5 3 3 ..., 0 0 0]
+ [6 5 3 ..., 0 0 0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51075.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51074
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51074'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51074
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51074'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51075
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51075'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51075
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51075'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51076
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51076'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51076
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51076'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51074.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51075.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51076.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51075.jpg
+INFO:root:d10 = [[ 4  0  0 ...,  1  0  6]
+ [ 2  0  0 ...,  0  0  5]
+ [ 1  1  0 ...,  0  0  3]
+ ..., 
+ [ 0  0  0 ..., 16 15  8]
+ [ 0  0  0 ..., 15 12  6]
+ [ 0  0  0 ..., 17 13  6]]
+INFO:root:d12 = [[ 7  4  0 ...,  0  0  6]
+ [ 2  3  0 ...,  0  0  5]
+ [ 0  3  0 ...,  0  0  3]
+ ..., 
+ [ 0  0  0 ..., 15  3  0]
+ [ 0  0  0 ...,  9  0  0]
+ [ 0  0  0 ...,  9  5  3]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51076.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51075
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51075'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51075
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51075'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51076
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51076'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51076
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51076'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51077
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51077'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51077
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51077'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51075.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51076.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51077.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51076.jpg
+INFO:root:d10 = [[ 0  0  0 ...,  1  1  0]
+ [ 0  0  0 ...,  1  1  0]
+ [ 3  0  0 ...,  2  2  0]
+ ..., 
+ [ 5  4  2 ...,  0  0 18]
+ [ 4  2  2 ...,  0  3 15]
+ [ 1  1  1 ...,  0  0  0]]
+INFO:root:d12 = [[ 0  0  0 ...,  1  1  0]
+ [ 0  0  2 ...,  1  1  0]
+ [ 9  5  5 ...,  1  2  1]
+ ..., 
+ [ 4  3  1 ...,  1 13 26]
+ [ 2  0  0 ...,  4 13 22]
+ [ 0  0  0 ...,  4  4  5]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51077.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51076
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51076'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51076
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51076'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51077
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51077'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51077
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51077'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51078
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51078'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51078
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51078'
+DEBUG:root:getLength : field = (-29, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51076.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51077.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51078.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51077.jpg
+INFO:root:d10 = [[12 10  3 ...,  0  0  1]
+ [ 1  2  0 ...,  0  0  0]
+ [ 0  0  0 ...,  0  0  0]
+ ..., 
+ [ 0  0  0 ...,  0  0  0]
+ [ 0  0  1 ...,  0  0  0]
+ [ 1  2  3 ...,  0  0  0]]
+INFO:root:d12 = [[7 0 0 ..., 0 0 2]
+ [0 0 0 ..., 0 0 2]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 1 1 1]
+ [0 0 0 ..., 3 3 1]
+ [3 3 2 ..., 4 2 0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51078.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51077
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51077'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51077
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51077'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51078
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51078'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51078
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51078'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51079
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51079'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51079
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51079'
+DEBUG:root:getLength : field = (-30, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51077.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51078.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51079.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51078.jpg
+INFO:root:d10 = [[ 0 11 10 ...,  4  1  0]
+ [ 0 10  5 ...,  4  2  0]
+ [ 9 10  2 ...,  3  4  0]
+ ..., 
+ [ 4  5  6 ...,  0  0  0]
+ [ 0  1  2 ...,  0  0  0]
+ [ 0  0  0 ...,  0  0  3]]
+INFO:root:d12 = [[ 5 17  9 ...,  4  1  0]
+ [ 4 11  4 ...,  4  2  0]
+ [ 5  7  2 ...,  3  3  2]
+ ..., 
+ [ 8  9  9 ...,  0  0  0]
+ [ 4  6  7 ...,  0  0  0]
+ [ 0  0  2 ...,  0  2  7]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51079.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51078
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51078'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51078
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51078'
+DEBUG:root:getLength : field = (-29, )
+DEBUG:root:mission, roll, frame = ISS048 E 51079
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51079'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51079
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51079'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:mission, roll, frame = ISS048 E 51080
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51080'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51080
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51080'
+DEBUG:root:getLength : field = (-30, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51078.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51079.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51080.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51079.jpg
+INFO:root:d10 = [[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 2 4 5]
+ [0 0 0 ..., 3 2 1]
+ [3 1 0 ..., 2 0 0]]
+INFO:root:d12 = [[0 0 0 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ [1 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 1 ..., 2 4 3]
+ [0 0 0 ..., 0 0 0]
+ [2 0 0 ..., 0 1 0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51080.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51079
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51079'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51079
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51079'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:mission, roll, frame = ISS048 E 51080
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51080'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51080
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51080'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:mission, roll, frame = ISS048 E 51081
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51081'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51081
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51081'
+DEBUG:root:getLength : field = (-30, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51079.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51080.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51081.jpg
+INFO:root:image = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51080.jpg
+INFO:root:d10 = [[8 7 5 ..., 0 0 0]
+ [2 2 4 ..., 1 1 1]
+ [0 0 3 ..., 0 0 1]
+ ..., 
+ [3 2 0 ..., 0 0 0]
+ [3 3 3 ..., 0 0 0]
+ [0 1 3 ..., 0 0 0]]
+INFO:root:d12 = [[9 5 6 ..., 0 0 0]
+ [0 0 1 ..., 0 0 0]
+ [0 0 0 ..., 0 0 0]
+ ..., 
+ [0 0 0 ..., 0 0 0]
+ [2 0 0 ..., 4 3 0]
+ [3 1 0 ..., 3 1 0]]
+INFO:root: 
+INFO:root:Filename = \\EO-Web\images\ESC\large\ISS048/ISS048-E-51081.jpg
+DEBUG:root:mission, roll, frame = ISS048 E 51080
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51080'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51080
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51080'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:mission, roll, frame = ISS048 E 51081
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51081'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51081
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51081'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:mission, roll, frame = ISS048 E 51082
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS048' AND roll='E' AND frame='  51082'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS048 E 51082
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS048' AND roll='E' AND frame='  51082'
+DEBUG:root:getLength : field = (-30, )
+INFO:root:comparing \\EO-Web\images\ESC\large\ISS048/ISS048-E-51080.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51081.jpg \\EO-Web\images\ESC\large\ISS048/ISS048-E-51082.jpg

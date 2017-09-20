@@ -1,0 +1,108 @@
+10/28/2016 :
+
+Got the lightning images w/ help from James to download all the images at once.  
+
+They are in :
+
+E:\Lightning
+
+CurrentData.tsv  :  tab separated list of lightning images generated from sql command :
+
+SELECT i.directory,i.filename,f.feat FROM images i LEFT JOIN frames f ON i.mission=f.mission AND 
+i.roll=f.roll AND i.frame=f.frame WHERE (i.directory LIKE '%LARGE%' OR i.directory LIKE '%highres%') 
+AND f.feat LIKE '%LIGHTNING%'
+
+Then run the GetLigthningImages.bat that James perl script made.
+
+The perl script :
+
+I then ran this Perl script to get the file GetLightningImages.bat:
+
+open F,'D:\scripts\pl\SQLDB\FixesAndQueries\GetCurrentData\CurrentData.tsv';
+while (<F>) { last; }
+while (<F>) {
+	($directory,$filename)=split /\t/;
+	next if $done{$filename};
+	print "COPY \\\\EO-Web\\images\\$directory\\$filename\n";
+	$done{$filename}=1; }
+close F;
+
+
+Check HSV values of ligthning pixels with 
+
+C:\Users\lrmayer\Documents\Mayer\SoftwareLanguages\Python\ImageProcessing
+
+white = 0, 0, 255  HSV
+
+
+Change find_aurora_hsv code to also get lightning by changing ranges  - probably should make a super class
+C:\Users\lrmayer\Documents\Mayer\CatalogImages\Code\find_aurora\
+
+findAurora = True
+findLightning = True
+
+
+11/02/2016 : 
+
+Samples I sent to Maryam :
+E:\Lightning\SmallISS030-E-228200.jpg
+E:\Lightning\SmallISS043-E-3096.jpg
+E:\Lightning\SmallISS031-E-10713.jpg
+
+Results from Maryam :
+
+    Directory: E:\Lightning
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+-ar--         11/2/2016   1:48 PM       8064 resultISS030-E-228200.jpg
+-ar--         11/2/2016   1:48 PM      10235 resultISS031-E-10713.jpg
+-ar--         11/2/2016   1:48 PM       8346 resultISS043-E-3096.jpg
+
+Picks out all the bright spots, both city lights & lightning
+
+
+Need to send her some more samples to try :
+
+Lunar_ISS026-E-36262.jpg  - too complicated  (has moon & what looks like lightning)
+Night_ISS026-E-24750.jpg - good one!
+Night_ISS028-E-25414.jpg - earthlimb w/ city lights & cloud
+Night_ISS028-E-25951.jpg - iss and city lights
+Night_ISS028-E-26273.jpg - bright limb & lots of clouds
+Aurora_ISS037-E-7521.jpg  - aurora w/ bright spot
+Limbnight_ISS037-E-8861.jpg - night limb
+
+ 
+Resized all the lightning images - send some to Maryam
+
+11/03/2016 :
+
+Need to resize the list above, zip & send to Maryam
+
+List : F:\imagews\training\no_lightning.txt
+
+from resize_list.py :
+Writing image to F:\imagews\training/SmallLunar_ISS026-E-36262.jpg
+Writing image to F:\imagews\training/SmallNight_ISS026-E-24750.jpg
+Writing image to F:\imagews\training/SmallNight_ISS028-E-25414.jpg
+Writing image to F:\imagews\training/SmallNight_ISS028-E-25951.jpg
+Writing image to F:\imagews\training/SmallNight_ISS028-E-26273.jpg
+Writing image to F:\imagews\training/SmallAurora_ISS037-E-7521.jpg
+Writing image to F:\imagews\training/SmallLimbnight_ISS037-E-8861.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

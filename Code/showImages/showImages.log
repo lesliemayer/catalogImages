@@ -1,0 +1,170 @@
+INFO:root:input path is F:\imagews\training
+INFO:root:log level : debug
+DEBUG:root:fileList = ['Earthlimb_ISS009-E-18998.jpg', 'Earthlimb_ISS009-E-28028.jpg', 'Earthlimb_ISS009-E-22199.jpg', 'Cloud_ISS009-E-22489.jpg', 'Cloud_ISS009-E-21018.jpg', 'Cloud_ISS009-E-22837.jpg', 'ISS_ISS026-E-36872.jpg', 'ISS_ISS026-E-28071.jpg', 'ISS_ISS026-E-36873.jpg', 'Land_ISS009-E-9843.jpg', 'Land_ISS009-E-26581.jpg', 'Land_ISS009-E-23263.jpg', 'Limbnight_ISS037-E-8497.jpg', 'Limbnight_ISS037-E-8838.jpg', 'Limbnight_ISS026-E-35538.jpg', 'Lunar_ISS026-E-28341.jpg', 'Lunar_14ISS030-E-21941.jpg', 'Lunar_ISS026-E-36264.jpg', 'Night_ISS028-E-26141.jpg', 'Night_ISS028-E-26587.jpg', 'Night_ISS026-E-25013.jpg']
+DEBUG:root:imagePaths is ['F:\\imagews\\training/Earthlimb_ISS009-E-18998.jpg', 'F:\\imagews\\training/Earthlimb_ISS009-E-28028.jpg', 'F:\\imagews\\training/Earthlimb_ISS009-E-22199.jpg', 'F:\\imagews\\training/Cloud_ISS009-E-22489.jpg', 'F:\\imagews\\training/Cloud_ISS009-E-21018.jpg', 'F:\\imagews\\training/Cloud_ISS009-E-22837.jpg', 'F:\\imagews\\training/ISS_ISS026-E-36872.jpg', 'F:\\imagews\\training/ISS_ISS026-E-28071.jpg', 'F:\\imagews\\training/ISS_ISS026-E-36873.jpg', 'F:\\imagews\\training/Land_ISS009-E-9843.jpg', 'F:\\imagews\\training/Land_ISS009-E-26581.jpg', 'F:\\imagews\\training/Land_ISS009-E-23263.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8497.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8838.jpg', 'F:\\imagews\\training/Limbnight_ISS026-E-35538.jpg', 'F:\\imagews\\training/Lunar_ISS026-E-28341.jpg', 'F:\\imagews\\training/Lunar_14ISS030-E-21941.jpg', 'F:\\imagews\\training/Lunar_ISS026-E-36264.jpg', 'F:\\imagews\\training/Night_ISS028-E-26141.jpg', 'F:\\imagews\\training/Night_ISS028-E-26587.jpg', 'F:\\imagews\\training/Night_ISS026-E-25013.jpg']
+DEBUG:root:mission, roll, frame = ISS009 E 18998
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  18998'
+DEBUG:root:getLength : field = (800, )
+DEBUG:root:mission, roll, frame = ISS009 E 18998
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  18998'
+DEBUG:root:getLength : field = (65, )
+DEBUG:root:mission, roll, frame = ISS009 E 28028
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  28028'
+DEBUG:root:getLength : field = (80, )
+DEBUG:root:mission, roll, frame = ISS009 E 28028
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  28028'
+DEBUG:root:getLength : field = (22, )
+DEBUG:root:mission, roll, frame = ISS009 E 22199
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  22199'
+DEBUG:root:getLength : field = (0, )
+DEBUG:root:mission, roll, frame = ISS009 E 22199
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  22199'
+DEBUG:root:getLength : field = (16, )
+DEBUG:root:mission, roll, frame = ISS009 E 22489
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  22489'
+DEBUG:root:getLength : field = (180, )
+DEBUG:root:mission, roll, frame = ISS009 E 22489
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  22489'
+DEBUG:root:getLength : field = (12, )
+DEBUG:root:mission, roll, frame = ISS009 E 21018
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  21018'
+DEBUG:root:getLength : field = (180, )
+DEBUG:root:mission, roll, frame = ISS009 E 21018
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  21018'
+DEBUG:root:getLength : field = (30, )
+DEBUG:root:mission, roll, frame = ISS009 E 22837
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  22837'
+DEBUG:root:getLength : field = (180, )
+DEBUG:root:mission, roll, frame = ISS009 E 22837
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  22837'
+DEBUG:root:getLength : field = (17, )
+DEBUG:root:mission, roll, frame = ISS026 E 36872
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  36872'
+DEBUG:root:getLength : field = (70, )
+DEBUG:root:mission, roll, frame = ISS026 E 36872
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  36872'
+DEBUG:root:getLength : field = (-13, )
+DEBUG:root:mission, roll, frame = ISS026 E 28071
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  28071'
+DEBUG:root:mission, roll, frame = ISS026 E 28071
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  28071'
+DEBUG:root:mission, roll, frame = ISS026 E 36873
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  36873'
+DEBUG:root:getLength : field = (70, )
+DEBUG:root:mission, roll, frame = ISS026 E 36873
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  36873'
+DEBUG:root:getLength : field = (-13, )
+DEBUG:root:mission, roll, frame = ISS009 E 9843
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='   9843'
+DEBUG:root:getLength : field = (180, )
+DEBUG:root:mission, roll, frame = ISS009 E 9843
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='   9843'
+DEBUG:root:getLength : field = (78, )
+DEBUG:root:mission, roll, frame = ISS009 E 26581
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  26581'
+DEBUG:root:getLength : field = (400, )
+DEBUG:root:mission, roll, frame = ISS009 E 26581
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  26581'
+DEBUG:root:getLength : field = (42, )
+DEBUG:root:mission, roll, frame = ISS009 E 23263
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  23263'
+DEBUG:root:getLength : field = (180, )
+DEBUG:root:mission, roll, frame = ISS009 E 23263
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  23263'
+DEBUG:root:getLength : field = (55, )
+DEBUG:root:mission, roll, frame = ISS037 E 8497
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS037' AND roll='E' AND frame='   8497'
+DEBUG:root:getLength : field = (50, )
+DEBUG:root:mission, roll, frame = ISS037 E 8497
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS037' AND roll='E' AND frame='   8497'
+DEBUG:root:getLength : field = (-34, )
+DEBUG:root:mission, roll, frame = ISS037 E 8838
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS037' AND roll='E' AND frame='   8838'
+DEBUG:root:getLength : field = (50, )
+DEBUG:root:mission, roll, frame = ISS037 E 8838
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS037' AND roll='E' AND frame='   8838'
+DEBUG:root:getLength : field = (-46, )
+DEBUG:root:mission, roll, frame = ISS026 E 35538
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  35538'
+DEBUG:root:getLength : field = (38, )
+DEBUG:root:mission, roll, frame = ISS026 E 35538
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  35538'
+DEBUG:root:getLength : field = (-21, )
+DEBUG:root:mission, roll, frame = ISS026 E 28341
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  28341'
+DEBUG:root:getLength : field = (200, )
+DEBUG:root:mission, roll, frame = ISS026 E 28341
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  28341'
+DEBUG:root:getLength : field = (-11, )
+DEBUG:root:mission, roll, frame = ISS030 E 21941
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS030' AND roll='E' AND frame='  21941'
+DEBUG:root:getLength : field = (400, )
+DEBUG:root:mission, roll, frame = ISS030 E 21941
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS030' AND roll='E' AND frame='  21941'
+DEBUG:root:getLength : field = (24, )
+DEBUG:root:mission, roll, frame = ISS026 E 36264
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  36264'
+DEBUG:root:getLength : field = (145, )
+DEBUG:root:mission, roll, frame = ISS026 E 36264
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  36264'
+DEBUG:root:getLength : field = (-42, )
+DEBUG:root:mission, roll, frame = ISS028 E 26141
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS028' AND roll='E' AND frame='  26141'
+DEBUG:root:getLength : field = (16, )
+DEBUG:root:mission, roll, frame = ISS028 E 26141
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS028' AND roll='E' AND frame='  26141'
+DEBUG:root:getLength : field = (-35, )
+DEBUG:root:mission, roll, frame = ISS028 E 26587
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS028' AND roll='E' AND frame='  26587'
+DEBUG:root:getLength : field = (14, )
+DEBUG:root:mission, roll, frame = ISS028 E 26587
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS028' AND roll='E' AND frame='  26587'
+DEBUG:root:getLength : field = (-28, )
+DEBUG:root:mission, roll, frame = ISS026 E 25013
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  25013'
+DEBUG:root:getLength : field = (80, )
+DEBUG:root:mission, roll, frame = ISS026 E 25013
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  25013'
+DEBUG:root:getLength : field = (-56, )

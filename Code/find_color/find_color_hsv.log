@@ -1,0 +1,558 @@
+INFO:root:Opening of 5, 5
+INFO:root:input path is F:\imagews\training
+INFO:root:log level : debug
+INFO:root:colorLower = [100  30 100]
+INFO:root:colorUpper = [155 150 255]
+DEBUG:root:FileList : __init__ : list = F:\imagews\training\aurora_nightlimb.txt
+DEBUG:root:fileList = ['Aurora_ISS009-E-28575.jpg', 'Aurora_ISS009-E-28576.jpg', 'Aurora_ISS037-E-6342.jpg', 'Aurora_ISS037-E-6345.jpg', 'Aurora_ISS037-E-7528.jpg', 'ISS_ISS026-E-28071.jpg', 'Limbnight_ISS037-E-8497.jpg', 'ISS_ISS026-E-28063.jpg', 'ISS_ISS026-E-28064.jpg', 'ISS_ISS026-E-28066.jpg', 'ISS_ISS026-E-28068.jpg', 'ISS_ISS026-E-28069.jpg', 'ISS_ISS026-E-28071.jpg', 'Aurora_ISS027-E-11752.jpg', 'Aurora_ISS027-E-11761.jpg', 'Aurora_ISS027-E-11770.jpg', 'Aurora_ISS027-E-11786.jpg', 'Aurora_ISS027-E-11795.jpg', 'Aurora_ISS027-E-11753.jpg', 'Aurora_ISS027-E-11762.jpg', 'Aurora_ISS027-E-11771.jpg', 'Aurora_ISS027-E-11787.jpg', 'Aurora_ISS027-E-11796.jpg', 'Aurora_ISS027-E-11754.jpg', 'Aurora_ISS027-E-11763.jpg', 'Aurora_ISS027-E-11772.jpg', 'Aurora_ISS027-E-11788.jpg', 'Aurora_ISS027-E-11797.jpg', 'Aurora_ISS027-E-11755.jpg', 'Aurora_ISS027-E-11764.jpg', 'Aurora_ISS027-E-11773.jpg', 'Aurora_ISS027-E-11789.jpg', 'Aurora_ISS027-E-11798.jpg', 'Aurora_ISS027-E-11756.jpg', 'Aurora_ISS027-E-11765.jpg', 'Aurora_ISS027-E-11774.jpg', 'Aurora_ISS027-E-11790.jpg', 'Aurora_ISS027-E-11799.jpg', 'Limbnight_ISS027-E-8622.jpg', 'Limbnight_ISS027-E-8623.jpg', 'Limbnight_ISS027-E-8624.jpg', 'Limbnight_ISS027-E-8625.jpg', 'Limbnight_ISS037-E-5983.jpg', 'Limbnight_ISS037-E-5984.jpg', 'Limbnight_ISS037-E-5985.jpg', 'Limbnight_ISS037-E-5986.jpg', 'Limbnight_ISS037-E-5987.jpg', 'Limbnight_ISS037-E-5988.jpg', 'Limbnight_ISS037-E-5989.jpg', 'Limbnight_ISS037-E-5990.jpg', 'Limbnight_ISS037-E-5991.jpg', 'Limbnight_ISS037-E-5992.jpg', 'Limbnight_ISS037-E-5993.jpg', 'Limbnight_ISS037-E-5994.jpg', 'Limbnight_ISS037-E-8838.jpg', 'Limbnight_ISS037-E-8839.jpg', 'Limbnight_ISS037-E-8840.jpg', 'Limbnight_ISS037-E-8841.jpg', 'Limbnight_ISS037-E-8842.jpg', 'Limbnight_ISS037-E-8843.jpg', 'Limbnight_ISS037-E-8844.jpg', 'Limbnight_ISS037-E-8845.jpg', 'Limbnight_ISS037-E-8846.jpg', 'Limbnight_ISS037-E-8847.jpg', 'Limbnight_ISS037-E-8848.jpg', 'Limbnight_ISS037-E-8849.jpg', 'Limbnight_ISS037-E-8850.jpg', 'Limbnight_ISS037-E-8851.jpg', 'Limbnight_ISS037-E-8852.jpg', 'Limbnight_ISS037-E-8853.jpg', 'Limbnight_ISS037-E-8854.jpg', 'Limbnight_ISS037-E-8855.jpg', 'Limbnight_ISS037-E-8856.jpg', 'Limbnight_ISS037-E-8857.jpg', 'Limbnight_ISS037-E-8858.jpg', 'Limbnight_ISS037-E-8859.jpg', 'Limbnight_ISS037-E-8860.jpg', 'Limbnight_ISS037-E-8861.jpg', 'Limbnight_ISS037-E-8862.jpg', 'Limbnight_ISS037-E-8863.jpg', 'Limbnight_ISS037-E-8864.jpg', 'Limbnight_ISS037-E-8865.jpg', 'Limbnight_ISS037-E-8866.jpg', 'Limbnight_ISS037-E-8867.jpg', 'Limbnight_ISS037-E-8868.jpg', 'Limbnight_ISS037-E-8869.jpg', 'Limbnight_ISS037-E-8870.jpg', 'Limbnight_ISS037-E-8871.jpg', 'Limbnight_ISS037-E-8872.jpg', 'Limbnight_ISS037-E-8932.jpg', 'Limbnight_ISS037-E-8933.jpg', 'Limbnight_ISS037-E-8934.jpg', 'Limbnight_ISS037-E-8935.jpg', 'Limbnight_ISS037-E-8936.jpg', 'Limbnight_ISS037-E-8937.jpg', 'Limbnight_ISS037-E-8938.jpg', 'Limbnight_ISS037-E-8939.jpg', 'Limbnight_ISS037-E-8940.jpg', 'Limbnight_ISS037-E-8941.jpg', 'Limbnight_ISS037-E-8942.jpg', 'Night_ISS026-E-24757.jpg', 'Night_ISS026-E-24758.jpg', 'Night_ISS026-E-24760.jpg', 'Night_ISS026-E-24761.jpg', 'Night_ISS026-E-24762.jpg', 'Night_ISS026-E-24763.jpg', 'Night_ISS026-E-24764.jpg', 'Night_ISS026-E-24765.jpg', 'Night_ISS026-E-24766.jpg', 'Night_ISS026-E-24767.jpg', 'Night_ISS026-E-24768.jpg', 'Night_ISS026-E-24773.jpg', 'Night_ISS026-E-24774.jpg', 'Night_ISS026-E-24775.jpg', 'Night_ISS026-E-24776.jpg', 'Night_ISS026-E-24777.jpg', 'Night_ISS026-E-24778.jpg', 'Limbnight_ISS027-E-8622.jpg', 'Limbnight_ISS027-E-8623.jpg', 'Limbnight_ISS027-E-8624.jpg', 'Limbnight_ISS027-E-8625.jpg', 'Limbnight_ISS037-E-5983.jpg', 'Limbnight_ISS037-E-5984.jpg', 'Limbnight_ISS037-E-5985.jpg', 'Limbnight_ISS037-E-5986.jpg', 'Limbnight_ISS037-E-5987.jpg', 'Limbnight_ISS037-E-5988.jpg', 'Limbnight_ISS037-E-5989.jpg', 'Limbnight_ISS037-E-5990.jpg', 'Limbnight_ISS037-E-5991.jpg', 'Limbnight_ISS037-E-5992.jpg', 'Limbnight_ISS037-E-5993.jpg', 'Limbnight_ISS037-E-5994.jpg', 'Limbnight_ISS037-E-8838.jpg', 'Limbnight_ISS037-E-8839.jpg', 'Limbnight_ISS037-E-8840.jpg', 'Limbnight_ISS037-E-8841.jpg', 'Limbnight_ISS037-E-8842.jpg', 'Limbnight_ISS037-E-8843.jpg', 'Limbnight_ISS037-E-8844.jpg', 'Limbnight_ISS037-E-8845.jpg', 'Limbnight_ISS037-E-8846.jpg', 'Limbnight_ISS037-E-8847.jpg', 'Limbnight_ISS037-E-8848.jpg', 'Limbnight_ISS037-E-8849.jpg', 'Limbnight_ISS037-E-8850.jpg', 'Limbnight_ISS037-E-8851.jpg', 'Limbnight_ISS037-E-8852.jpg', 'Limbnight_ISS037-E-8853.jpg', 'Limbnight_ISS037-E-8854.jpg', 'Limbnight_ISS037-E-8855.jpg', 'Limbnight_ISS037-E-8856.jpg', 'Limbnight_ISS037-E-8857.jpg', 'Limbnight_ISS037-E-8858.jpg', 'Limbnight_ISS037-E-8859.jpg', 'Limbnight_ISS037-E-8860.jpg', 'Limbnight_ISS037-E-8861.jpg', 'Limbnight_ISS037-E-8862.jpg', 'Limbnight_ISS037-E-8863.jpg', 'Limbnight_ISS037-E-8864.jpg', 'Limbnight_ISS037-E-8865.jpg', 'Limbnight_ISS037-E-8866.jpg', 'Limbnight_ISS037-E-8867.jpg', 'Limbnight_ISS037-E-8868.jpg', 'Limbnight_ISS037-E-8869.jpg', 'Limbnight_ISS037-E-8870.jpg', 'Limbnight_ISS037-E-8871.jpg', 'Limbnight_ISS037-E-8872.jpg', 'Limbnight_ISS037-E-8932.jpg', 'Limbnight_ISS037-E-8933.jpg', 'Limbnight_ISS037-E-8934.jpg', 'Limbnight_ISS037-E-8935.jpg', 'Limbnight_ISS037-E-8936.jpg', 'Limbnight_ISS037-E-8937.jpg', 'Limbnight_ISS037-E-8938.jpg', 'Limbnight_ISS037-E-8939.jpg', 'Limbnight_ISS037-E-8940.jpg', 'Limbnight_ISS037-E-8941.jpg', 'Limbnight_ISS037-E-8942.jpg', 'Night_ISS026-E-24779.jpg', 'Night_ISS026-E-24780.jpg', 'Night_ISS026-E-24781.jpg', 'Night_ISS026-E-24782.jpg', 'Night_ISS026-E-24783.jpg', 'Night_ISS026-E-24784.jpg', 'Night_ISS026-E-24785.jpg', 'Night_ISS026-E-24786.jpg', 'Night_ISS026-E-24787.jpg', 'Night_ISS026-E-24788.jpg', 'Night_ISS026-E-24776.jpg', 'Night_ISS026-E-24777.jpg', 'Night_ISS026-E-24778.jpg', 'Night_ISS026-E-24779.jpg', 'Night_ISS026-E-24780.jpg', 'Night_ISS026-E-24781.jpg', 'Night_ISS026-E-24782.jpg', 'Night_ISS026-E-24783.jpg', 'Night_ISS026-E-24784.jpg', 'Night_ISS026-E-24785.jpg', 'Night_ISS026-E-24786.jpg', 'Night_ISS026-E-24787.jpg', 'Night_ISS026-E-24788.jpg', 'Night_ISS026-E-24913.jpg', 'Night_ISS026-E-24914.jpg', 'Night_ISS026-E-24915.jpg', 'Night_ISS026-E-24916.jpg', 'Night_ISS026-E-24917.jpg', 'Night_ISS026-E-24918.jpg', 'Night_ISS026-E-24919.jpg', 'Night_ISS026-E-24920.jpg', 'Night_ISS026-E-24921.jpg', 'Night_ISS026-E-24922.jpg', 'Night_ISS026-E-24923.jpg', 'Night_ISS026-E-24924.jpg', 'Night_ISS026-E-24925.jpg', 'Night_ISS026-E-24926.jpg', 'Night_ISS026-E-24927.jpg', 'Night_ISS026-E-24928.jpg', 'Night_ISS026-E-24931.jpg', 'Night_ISS026-E-24932.jpg', 'Night_ISS026-E-24933.jpg', 'Night_ISS026-E-24934.jpg', 'Night_ISS026-E-24935.jpg']
+DEBUG:root:imagePaths = F:\imagews\training/Aurora_ISS009-E-28575.jpg
+F:\imagews\training/Aurora_ISS009-E-28576.jpg
+F:\imagews\training/Aurora_ISS037-E-6342.jpg
+F:\imagews\training/Aurora_ISS037-E-6345.jpg
+F:\imagews\training/Aurora_ISS037-E-7528.jpg
+F:\imagews\training/ISS_ISS026-E-28071.jpg
+F:\imagews\training/Limbnight_ISS037-E-8497.jpg
+F:\imagews\training/ISS_ISS026-E-28063.jpg
+F:\imagews\training/ISS_ISS026-E-28064.jpg
+F:\imagews\training/ISS_ISS026-E-28066.jpg
+F:\imagews\training/ISS_ISS026-E-28068.jpg
+F:\imagews\training/ISS_ISS026-E-28069.jpg
+F:\imagews\training/ISS_ISS026-E-28071.jpg
+F:\imagews\training/Aurora_ISS027-E-11752.jpg
+F:\imagews\training/Aurora_ISS027-E-11761.jpg
+F:\imagews\training/Aurora_ISS027-E-11770.jpg
+F:\imagews\training/Aurora_ISS027-E-11786.jpg
+F:\imagews\training/Aurora_ISS027-E-11795.jpg
+F:\imagews\training/Aurora_ISS027-E-11753.jpg
+F:\imagews\training/Aurora_ISS027-E-11762.jpg
+F:\imagews\training/Aurora_ISS027-E-11771.jpg
+F:\imagews\training/Aurora_ISS027-E-11787.jpg
+F:\imagews\training/Aurora_ISS027-E-11796.jpg
+F:\imagews\training/Aurora_ISS027-E-11754.jpg
+F:\imagews\training/Aurora_ISS027-E-11763.jpg
+F:\imagews\training/Aurora_ISS027-E-11772.jpg
+F:\imagews\training/Aurora_ISS027-E-11788.jpg
+F:\imagews\training/Aurora_ISS027-E-11797.jpg
+F:\imagews\training/Aurora_ISS027-E-11755.jpg
+F:\imagews\training/Aurora_ISS027-E-11764.jpg
+F:\imagews\training/Aurora_ISS027-E-11773.jpg
+F:\imagews\training/Aurora_ISS027-E-11789.jpg
+F:\imagews\training/Aurora_ISS027-E-11798.jpg
+F:\imagews\training/Aurora_ISS027-E-11756.jpg
+F:\imagews\training/Aurora_ISS027-E-11765.jpg
+F:\imagews\training/Aurora_ISS027-E-11774.jpg
+F:\imagews\training/Aurora_ISS027-E-11790.jpg
+F:\imagews\training/Aurora_ISS027-E-11799.jpg
+F:\imagews\training/Limbnight_ISS027-E-8622.jpg
+F:\imagews\training/Limbnight_ISS027-E-8623.jpg
+F:\imagews\training/Limbnight_ISS027-E-8624.jpg
+F:\imagews\training/Limbnight_ISS027-E-8625.jpg
+F:\imagews\training/Limbnight_ISS037-E-5983.jpg
+F:\imagews\training/Limbnight_ISS037-E-5984.jpg
+F:\imagews\training/Limbnight_ISS037-E-5985.jpg
+F:\imagews\training/Limbnight_ISS037-E-5986.jpg
+F:\imagews\training/Limbnight_ISS037-E-5987.jpg
+F:\imagews\training/Limbnight_ISS037-E-5988.jpg
+F:\imagews\training/Limbnight_ISS037-E-5989.jpg
+F:\imagews\training/Limbnight_ISS037-E-5990.jpg
+F:\imagews\training/Limbnight_ISS037-E-5991.jpg
+F:\imagews\training/Limbnight_ISS037-E-5992.jpg
+F:\imagews\training/Limbnight_ISS037-E-5993.jpg
+F:\imagews\training/Limbnight_ISS037-E-5994.jpg
+F:\imagews\training/Limbnight_ISS037-E-8838.jpg
+F:\imagews\training/Limbnight_ISS037-E-8839.jpg
+F:\imagews\training/Limbnight_ISS037-E-8840.jpg
+F:\imagews\training/Limbnight_ISS037-E-8841.jpg
+F:\imagews\training/Limbnight_ISS037-E-8842.jpg
+F:\imagews\training/Limbnight_ISS037-E-8843.jpg
+F:\imagews\training/Limbnight_ISS037-E-8844.jpg
+F:\imagews\training/Limbnight_ISS037-E-8845.jpg
+F:\imagews\training/Limbnight_ISS037-E-8846.jpg
+F:\imagews\training/Limbnight_ISS037-E-8847.jpg
+F:\imagews\training/Limbnight_ISS037-E-8848.jpg
+F:\imagews\training/Limbnight_ISS037-E-8849.jpg
+F:\imagews\training/Limbnight_ISS037-E-8850.jpg
+F:\imagews\training/Limbnight_ISS037-E-8851.jpg
+F:\imagews\training/Limbnight_ISS037-E-8852.jpg
+F:\imagews\training/Limbnight_ISS037-E-8853.jpg
+F:\imagews\training/Limbnight_ISS037-E-8854.jpg
+F:\imagews\training/Limbnight_ISS037-E-8855.jpg
+F:\imagews\training/Limbnight_ISS037-E-8856.jpg
+F:\imagews\training/Limbnight_ISS037-E-8857.jpg
+F:\imagews\training/Limbnight_ISS037-E-8858.jpg
+F:\imagews\training/Limbnight_ISS037-E-8859.jpg
+F:\imagews\training/Limbnight_ISS037-E-8860.jpg
+F:\imagews\training/Limbnight_ISS037-E-8861.jpg
+F:\imagews\training/Limbnight_ISS037-E-8862.jpg
+F:\imagews\training/Limbnight_ISS037-E-8863.jpg
+F:\imagews\training/Limbnight_ISS037-E-8864.jpg
+F:\imagews\training/Limbnight_ISS037-E-8865.jpg
+F:\imagews\training/Limbnight_ISS037-E-8866.jpg
+F:\imagews\training/Limbnight_ISS037-E-8867.jpg
+F:\imagews\training/Limbnight_ISS037-E-8868.jpg
+F:\imagews\training/Limbnight_ISS037-E-8869.jpg
+F:\imagews\training/Limbnight_ISS037-E-8870.jpg
+F:\imagews\training/Limbnight_ISS037-E-8871.jpg
+F:\imagews\training/Limbnight_ISS037-E-8872.jpg
+F:\imagews\training/Limbnight_ISS037-E-8932.jpg
+F:\imagews\training/Limbnight_ISS037-E-8933.jpg
+F:\imagews\training/Limbnight_ISS037-E-8934.jpg
+F:\imagews\training/Limbnight_ISS037-E-8935.jpg
+F:\imagews\training/Limbnight_ISS037-E-8936.jpg
+F:\imagews\training/Limbnight_ISS037-E-8937.jpg
+F:\imagews\training/Limbnight_ISS037-E-8938.jpg
+F:\imagews\training/Limbnight_ISS037-E-8939.jpg
+F:\imagews\training/Limbnight_ISS037-E-8940.jpg
+F:\imagews\training/Limbnight_ISS037-E-8941.jpg
+F:\imagews\training/Limbnight_ISS037-E-8942.jpg
+F:\imagews\training/Night_ISS026-E-24757.jpg
+F:\imagews\training/Night_ISS026-E-24758.jpg
+F:\imagews\training/Night_ISS026-E-24760.jpg
+F:\imagews\training/Night_ISS026-E-24761.jpg
+F:\imagews\training/Night_ISS026-E-24762.jpg
+F:\imagews\training/Night_ISS026-E-24763.jpg
+F:\imagews\training/Night_ISS026-E-24764.jpg
+F:\imagews\training/Night_ISS026-E-24765.jpg
+F:\imagews\training/Night_ISS026-E-24766.jpg
+F:\imagews\training/Night_ISS026-E-24767.jpg
+F:\imagews\training/Night_ISS026-E-24768.jpg
+F:\imagews\training/Night_ISS026-E-24773.jpg
+F:\imagews\training/Night_ISS026-E-24774.jpg
+F:\imagews\training/Night_ISS026-E-24775.jpg
+F:\imagews\training/Night_ISS026-E-24776.jpg
+F:\imagews\training/Night_ISS026-E-24777.jpg
+F:\imagews\training/Night_ISS026-E-24778.jpg
+F:\imagews\training/Limbnight_ISS027-E-8622.jpg
+F:\imagews\training/Limbnight_ISS027-E-8623.jpg
+F:\imagews\training/Limbnight_ISS027-E-8624.jpg
+F:\imagews\training/Limbnight_ISS027-E-8625.jpg
+F:\imagews\training/Limbnight_ISS037-E-5983.jpg
+F:\imagews\training/Limbnight_ISS037-E-5984.jpg
+F:\imagews\training/Limbnight_ISS037-E-5985.jpg
+F:\imagews\training/Limbnight_ISS037-E-5986.jpg
+F:\imagews\training/Limbnight_ISS037-E-5987.jpg
+F:\imagews\training/Limbnight_ISS037-E-5988.jpg
+F:\imagews\training/Limbnight_ISS037-E-5989.jpg
+F:\imagews\training/Limbnight_ISS037-E-5990.jpg
+F:\imagews\training/Limbnight_ISS037-E-5991.jpg
+F:\imagews\training/Limbnight_ISS037-E-5992.jpg
+F:\imagews\training/Limbnight_ISS037-E-5993.jpg
+F:\imagews\training/Limbnight_ISS037-E-5994.jpg
+F:\imagews\training/Limbnight_ISS037-E-8838.jpg
+F:\imagews\training/Limbnight_ISS037-E-8839.jpg
+F:\imagews\training/Limbnight_ISS037-E-8840.jpg
+F:\imagews\training/Limbnight_ISS037-E-8841.jpg
+F:\imagews\training/Limbnight_ISS037-E-8842.jpg
+F:\imagews\training/Limbnight_ISS037-E-8843.jpg
+F:\imagews\training/Limbnight_ISS037-E-8844.jpg
+F:\imagews\training/Limbnight_ISS037-E-8845.jpg
+F:\imagews\training/Limbnight_ISS037-E-8846.jpg
+F:\imagews\training/Limbnight_ISS037-E-8847.jpg
+F:\imagews\training/Limbnight_ISS037-E-8848.jpg
+F:\imagews\training/Limbnight_ISS037-E-8849.jpg
+F:\imagews\training/Limbnight_ISS037-E-8850.jpg
+F:\imagews\training/Limbnight_ISS037-E-8851.jpg
+F:\imagews\training/Limbnight_ISS037-E-8852.jpg
+F:\imagews\training/Limbnight_ISS037-E-8853.jpg
+F:\imagews\training/Limbnight_ISS037-E-8854.jpg
+F:\imagews\training/Limbnight_ISS037-E-8855.jpg
+F:\imagews\training/Limbnight_ISS037-E-8856.jpg
+F:\imagews\training/Limbnight_ISS037-E-8857.jpg
+F:\imagews\training/Limbnight_ISS037-E-8858.jpg
+F:\imagews\training/Limbnight_ISS037-E-8859.jpg
+F:\imagews\training/Limbnight_ISS037-E-8860.jpg
+F:\imagews\training/Limbnight_ISS037-E-8861.jpg
+F:\imagews\training/Limbnight_ISS037-E-8862.jpg
+F:\imagews\training/Limbnight_ISS037-E-8863.jpg
+F:\imagews\training/Limbnight_ISS037-E-8864.jpg
+F:\imagews\training/Limbnight_ISS037-E-8865.jpg
+F:\imagews\training/Limbnight_ISS037-E-8866.jpg
+F:\imagews\training/Limbnight_ISS037-E-8867.jpg
+F:\imagews\training/Limbnight_ISS037-E-8868.jpg
+F:\imagews\training/Limbnight_ISS037-E-8869.jpg
+F:\imagews\training/Limbnight_ISS037-E-8870.jpg
+F:\imagews\training/Limbnight_ISS037-E-8871.jpg
+F:\imagews\training/Limbnight_ISS037-E-8872.jpg
+F:\imagews\training/Limbnight_ISS037-E-8932.jpg
+F:\imagews\training/Limbnight_ISS037-E-8933.jpg
+F:\imagews\training/Limbnight_ISS037-E-8934.jpg
+F:\imagews\training/Limbnight_ISS037-E-8935.jpg
+F:\imagews\training/Limbnight_ISS037-E-8936.jpg
+F:\imagews\training/Limbnight_ISS037-E-8937.jpg
+F:\imagews\training/Limbnight_ISS037-E-8938.jpg
+F:\imagews\training/Limbnight_ISS037-E-8939.jpg
+F:\imagews\training/Limbnight_ISS037-E-8940.jpg
+F:\imagews\training/Limbnight_ISS037-E-8941.jpg
+F:\imagews\training/Limbnight_ISS037-E-8942.jpg
+F:\imagews\training/Night_ISS026-E-24779.jpg
+F:\imagews\training/Night_ISS026-E-24780.jpg
+F:\imagews\training/Night_ISS026-E-24781.jpg
+F:\imagews\training/Night_ISS026-E-24782.jpg
+F:\imagews\training/Night_ISS026-E-24783.jpg
+F:\imagews\training/Night_ISS026-E-24784.jpg
+F:\imagews\training/Night_ISS026-E-24785.jpg
+F:\imagews\training/Night_ISS026-E-24786.jpg
+F:\imagews\training/Night_ISS026-E-24787.jpg
+F:\imagews\training/Night_ISS026-E-24788.jpg
+F:\imagews\training/Night_ISS026-E-24776.jpg
+F:\imagews\training/Night_ISS026-E-24777.jpg
+F:\imagews\training/Night_ISS026-E-24778.jpg
+F:\imagews\training/Night_ISS026-E-24779.jpg
+F:\imagews\training/Night_ISS026-E-24780.jpg
+F:\imagews\training/Night_ISS026-E-24781.jpg
+F:\imagews\training/Night_ISS026-E-24782.jpg
+F:\imagews\training/Night_ISS026-E-24783.jpg
+F:\imagews\training/Night_ISS026-E-24784.jpg
+F:\imagews\training/Night_ISS026-E-24785.jpg
+F:\imagews\training/Night_ISS026-E-24786.jpg
+F:\imagews\training/Night_ISS026-E-24787.jpg
+F:\imagews\training/Night_ISS026-E-24788.jpg
+F:\imagews\training/Night_ISS026-E-24913.jpg
+F:\imagews\training/Night_ISS026-E-24914.jpg
+F:\imagews\training/Night_ISS026-E-24915.jpg
+F:\imagews\training/Night_ISS026-E-24916.jpg
+F:\imagews\training/Night_ISS026-E-24917.jpg
+F:\imagews\training/Night_ISS026-E-24918.jpg
+F:\imagews\training/Night_ISS026-E-24919.jpg
+F:\imagews\training/Night_ISS026-E-24920.jpg
+F:\imagews\training/Night_ISS026-E-24921.jpg
+F:\imagews\training/Night_ISS026-E-24922.jpg
+F:\imagews\training/Night_ISS026-E-24923.jpg
+F:\imagews\training/Night_ISS026-E-24924.jpg
+F:\imagews\training/Night_ISS026-E-24925.jpg
+F:\imagews\training/Night_ISS026-E-24926.jpg
+F:\imagews\training/Night_ISS026-E-24927.jpg
+F:\imagews\training/Night_ISS026-E-24928.jpg
+F:\imagews\training/Night_ISS026-E-24931.jpg
+F:\imagews\training/Night_ISS026-E-24932.jpg
+F:\imagews\training/Night_ISS026-E-24933.jpg
+F:\imagews\training/Night_ISS026-E-24934.jpg
+F:\imagews\training/Night_ISS026-E-24935.jpg
+INFO:root:find_aurora_hsv : imagePaths is ['F:\\imagews\\training/Aurora_ISS009-E-28575.jpg', 'F:\\imagews\\training/Aurora_ISS009-E-28576.jpg', 'F:\\imagews\\training/Aurora_ISS037-E-6342.jpg', 'F:\\imagews\\training/Aurora_ISS037-E-6345.jpg', 'F:\\imagews\\training/Aurora_ISS037-E-7528.jpg', 'F:\\imagews\\training/ISS_ISS026-E-28071.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8497.jpg', 'F:\\imagews\\training/ISS_ISS026-E-28063.jpg', 'F:\\imagews\\training/ISS_ISS026-E-28064.jpg', 'F:\\imagews\\training/ISS_ISS026-E-28066.jpg', 'F:\\imagews\\training/ISS_ISS026-E-28068.jpg', 'F:\\imagews\\training/ISS_ISS026-E-28069.jpg', 'F:\\imagews\\training/ISS_ISS026-E-28071.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11752.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11761.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11770.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11786.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11795.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11753.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11762.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11771.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11787.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11796.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11754.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11763.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11772.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11788.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11797.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11755.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11764.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11773.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11789.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11798.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11756.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11765.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11774.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11790.jpg', 'F:\\imagews\\training/Aurora_ISS027-E-11799.jpg', 'F:\\imagews\\training/Limbnight_ISS027-E-8622.jpg', 'F:\\imagews\\training/Limbnight_ISS027-E-8623.jpg', 'F:\\imagews\\training/Limbnight_ISS027-E-8624.jpg', 'F:\\imagews\\training/Limbnight_ISS027-E-8625.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5983.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5984.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5985.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5986.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5987.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5988.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5989.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5990.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5991.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5992.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5993.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5994.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8838.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8839.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8840.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8841.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8842.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8843.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8844.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8845.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8846.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8847.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8848.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8849.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8850.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8851.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8852.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8853.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8854.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8855.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8856.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8857.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8858.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8859.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8860.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8861.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8862.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8863.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8864.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8865.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8866.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8867.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8868.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8869.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8870.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8871.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8872.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8932.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8933.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8934.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8935.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8936.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8937.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8938.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8939.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8940.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8941.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8942.jpg', 'F:\\imagews\\training/Night_ISS026-E-24757.jpg', 'F:\\imagews\\training/Night_ISS026-E-24758.jpg', 'F:\\imagews\\training/Night_ISS026-E-24760.jpg', 'F:\\imagews\\training/Night_ISS026-E-24761.jpg', 'F:\\imagews\\training/Night_ISS026-E-24762.jpg', 'F:\\imagews\\training/Night_ISS026-E-24763.jpg', 'F:\\imagews\\training/Night_ISS026-E-24764.jpg', 'F:\\imagews\\training/Night_ISS026-E-24765.jpg', 'F:\\imagews\\training/Night_ISS026-E-24766.jpg', 'F:\\imagews\\training/Night_ISS026-E-24767.jpg', 'F:\\imagews\\training/Night_ISS026-E-24768.jpg', 'F:\\imagews\\training/Night_ISS026-E-24773.jpg', 'F:\\imagews\\training/Night_ISS026-E-24774.jpg', 'F:\\imagews\\training/Night_ISS026-E-24775.jpg', 'F:\\imagews\\training/Night_ISS026-E-24776.jpg', 'F:\\imagews\\training/Night_ISS026-E-24777.jpg', 'F:\\imagews\\training/Night_ISS026-E-24778.jpg', 'F:\\imagews\\training/Limbnight_ISS027-E-8622.jpg', 'F:\\imagews\\training/Limbnight_ISS027-E-8623.jpg', 'F:\\imagews\\training/Limbnight_ISS027-E-8624.jpg', 'F:\\imagews\\training/Limbnight_ISS027-E-8625.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5983.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5984.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5985.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5986.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5987.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5988.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5989.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5990.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5991.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5992.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5993.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-5994.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8838.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8839.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8840.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8841.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8842.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8843.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8844.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8845.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8846.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8847.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8848.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8849.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8850.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8851.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8852.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8853.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8854.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8855.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8856.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8857.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8858.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8859.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8860.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8861.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8862.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8863.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8864.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8865.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8866.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8867.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8868.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8869.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8870.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8871.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8872.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8932.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8933.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8934.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8935.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8936.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8937.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8938.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8939.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8940.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8941.jpg', 'F:\\imagews\\training/Limbnight_ISS037-E-8942.jpg', 'F:\\imagews\\training/Night_ISS026-E-24779.jpg', 'F:\\imagews\\training/Night_ISS026-E-24780.jpg', 'F:\\imagews\\training/Night_ISS026-E-24781.jpg', 'F:\\imagews\\training/Night_ISS026-E-24782.jpg', 'F:\\imagews\\training/Night_ISS026-E-24783.jpg', 'F:\\imagews\\training/Night_ISS026-E-24784.jpg', 'F:\\imagews\\training/Night_ISS026-E-24785.jpg', 'F:\\imagews\\training/Night_ISS026-E-24786.jpg', 'F:\\imagews\\training/Night_ISS026-E-24787.jpg', 'F:\\imagews\\training/Night_ISS026-E-24788.jpg', 'F:\\imagews\\training/Night_ISS026-E-24776.jpg', 'F:\\imagews\\training/Night_ISS026-E-24777.jpg', 'F:\\imagews\\training/Night_ISS026-E-24778.jpg', 'F:\\imagews\\training/Night_ISS026-E-24779.jpg', 'F:\\imagews\\training/Night_ISS026-E-24780.jpg', 'F:\\imagews\\training/Night_ISS026-E-24781.jpg', 'F:\\imagews\\training/Night_ISS026-E-24782.jpg', 'F:\\imagews\\training/Night_ISS026-E-24783.jpg', 'F:\\imagews\\training/Night_ISS026-E-24784.jpg', 'F:\\imagews\\training/Night_ISS026-E-24785.jpg', 'F:\\imagews\\training/Night_ISS026-E-24786.jpg', 'F:\\imagews\\training/Night_ISS026-E-24787.jpg', 'F:\\imagews\\training/Night_ISS026-E-24788.jpg', 'F:\\imagews\\training/Night_ISS026-E-24913.jpg', 'F:\\imagews\\training/Night_ISS026-E-24914.jpg', 'F:\\imagews\\training/Night_ISS026-E-24915.jpg', 'F:\\imagews\\training/Night_ISS026-E-24916.jpg', 'F:\\imagews\\training/Night_ISS026-E-24917.jpg', 'F:\\imagews\\training/Night_ISS026-E-24918.jpg', 'F:\\imagews\\training/Night_ISS026-E-24919.jpg', 'F:\\imagews\\training/Night_ISS026-E-24920.jpg', 'F:\\imagews\\training/Night_ISS026-E-24921.jpg', 'F:\\imagews\\training/Night_ISS026-E-24922.jpg', 'F:\\imagews\\training/Night_ISS026-E-24923.jpg', 'F:\\imagews\\training/Night_ISS026-E-24924.jpg', 'F:\\imagews\\training/Night_ISS026-E-24925.jpg', 'F:\\imagews\\training/Night_ISS026-E-24926.jpg', 'F:\\imagews\\training/Night_ISS026-E-24927.jpg', 'F:\\imagews\\training/Night_ISS026-E-24928.jpg', 'F:\\imagews\\training/Night_ISS026-E-24931.jpg', 'F:\\imagews\\training/Night_ISS026-E-24932.jpg', 'F:\\imagews\\training/Night_ISS026-E-24933.jpg', 'F:\\imagews\\training/Night_ISS026-E-24934.jpg', 'F:\\imagews\\training/Night_ISS026-E-24935.jpg']
+DEBUG:root:mission, roll, frame = ISS009 E 28575
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  28575'
+DEBUG:root:getLength : field = (80, )
+DEBUG:root:mission, roll, frame = ISS009 E 28575
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  28575'
+DEBUG:root:getLength : field = (-46, )
+DEBUG:root:total Pixels in resized image : 800 * 544 = 435200
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS009 E 28576
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS009' AND roll='E' AND frame='  28576'
+DEBUG:root:getLength : field = (80, )
+DEBUG:root:mission, roll, frame = ISS009 E 28576
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS009' AND roll='E' AND frame='  28576'
+DEBUG:root:getLength : field = (-45, )
+DEBUG:root:total Pixels in resized image : 800 * 544 = 435200
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS037 E 6342
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS037' AND roll='E' AND frame='   6342'
+DEBUG:root:getLength : field = (50, )
+DEBUG:root:mission, roll, frame = ISS037 E 6342
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS037' AND roll='E' AND frame='   6342'
+DEBUG:root:getLength : field = (-44, )
+DEBUG:root:total Pixels in resized image : 800 * 532 = 425600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS037 E 6345
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS037' AND roll='E' AND frame='   6345'
+DEBUG:root:getLength : field = (50, )
+DEBUG:root:mission, roll, frame = ISS037 E 6345
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS037' AND roll='E' AND frame='   6345'
+DEBUG:root:getLength : field = (-44, )
+DEBUG:root:total Pixels in resized image : 800 * 532 = 425600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS037 E 7528
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS037' AND roll='E' AND frame='   7528'
+DEBUG:root:getLength : field = (50, )
+DEBUG:root:mission, roll, frame = ISS037 E 7528
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS037' AND roll='E' AND frame='   7528'
+DEBUG:root:getLength : field = (-48, )
+DEBUG:root:total Pixels in resized image : 800 * 532 = 425600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS026 E 28071
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  28071'
+DEBUG:root:mission, roll, frame = ISS026 E 28071
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  28071'
+DEBUG:root:total Pixels in resized image : 800 * 546 = 436800
+DEBUG:root:Number of non-zero pixels in binary array : 691
+DEBUG:root:Percent of color 0.158195970696
+DEBUG:root:mission, roll, frame = ISS037 E 8497
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS037' AND roll='E' AND frame='   8497'
+DEBUG:root:getLength : field = (50, )
+DEBUG:root:mission, roll, frame = ISS037 E 8497
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS037' AND roll='E' AND frame='   8497'
+DEBUG:root:getLength : field = (-34, )
+DEBUG:root:total Pixels in resized image : 800 * 532 = 425600
+DEBUG:root:Number of non-zero pixels in binary array : 11280
+DEBUG:root:Percent of color 2.65037593985
+DEBUG:root:mission, roll, frame = ISS026 E 28063
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  28063'
+DEBUG:root:mission, roll, frame = ISS026 E 28063
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  28063'
+DEBUG:root:total Pixels in resized image : 800 * 546 = 436800
+DEBUG:root:Number of non-zero pixels in binary array : 634
+DEBUG:root:Percent of color 0.145146520147
+DEBUG:root:mission, roll, frame = ISS026 E 28064
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  28064'
+DEBUG:root:mission, roll, frame = ISS026 E 28064
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  28064'
+DEBUG:root:total Pixels in resized image : 800 * 546 = 436800
+DEBUG:root:Number of non-zero pixels in binary array : 728
+DEBUG:root:Percent of color 0.166666666667
+DEBUG:root:mission, roll, frame = ISS026 E 28066
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  28066'
+DEBUG:root:mission, roll, frame = ISS026 E 28066
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  28066'
+DEBUG:root:total Pixels in resized image : 800 * 546 = 436800
+DEBUG:root:Number of non-zero pixels in binary array : 663
+DEBUG:root:Percent of color 0.151785714286
+DEBUG:root:mission, roll, frame = ISS026 E 28068
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  28068'
+DEBUG:root:mission, roll, frame = ISS026 E 28068
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  28068'
+DEBUG:root:total Pixels in resized image : 800 * 546 = 436800
+DEBUG:root:Number of non-zero pixels in binary array : 714
+DEBUG:root:Percent of color 0.163461538462
+DEBUG:root:mission, roll, frame = ISS026 E 28069
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  28069'
+DEBUG:root:mission, roll, frame = ISS026 E 28069
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  28069'
+DEBUG:root:total Pixels in resized image : 800 * 546 = 436800
+DEBUG:root:Number of non-zero pixels in binary array : 359
+DEBUG:root:Percent of color 0.0821886446886
+DEBUG:root:mission, roll, frame = ISS026 E 28071
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS026' AND roll='E' AND frame='  28071'
+DEBUG:root:mission, roll, frame = ISS026 E 28071
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS026' AND roll='E' AND frame='  28071'
+DEBUG:root:total Pixels in resized image : 800 * 546 = 436800
+DEBUG:root:Number of non-zero pixels in binary array : 691
+DEBUG:root:Percent of color 0.158195970696
+DEBUG:root:mission, roll, frame = ISS027 E 11752
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11752'
+DEBUG:root:getLength : field = (80, )
+DEBUG:root:mission, roll, frame = ISS027 E 11752
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11752'
+DEBUG:root:getLength : field = (-31, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11761
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11761'
+DEBUG:root:getLength : field = (80, )
+DEBUG:root:mission, roll, frame = ISS027 E 11761
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11761'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11770
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11770'
+DEBUG:root:getLength : field = (160, )
+DEBUG:root:mission, roll, frame = ISS027 E 11770
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11770'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11786
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11786'
+DEBUG:root:getLength : field = (110, )
+DEBUG:root:mission, roll, frame = ISS027 E 11786
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11786'
+DEBUG:root:getLength : field = (-25, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 87
+DEBUG:root:Percent of color 0.0198811700183
+DEBUG:root:mission, roll, frame = ISS027 E 11795
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11795'
+DEBUG:root:getLength : field = (95, )
+DEBUG:root:mission, roll, frame = ISS027 E 11795
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11795'
+DEBUG:root:getLength : field = (-24, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11753
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11753'
+DEBUG:root:getLength : field = (80, )
+DEBUG:root:mission, roll, frame = ISS027 E 11753
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11753'
+DEBUG:root:getLength : field = (-31, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11762
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11762'
+DEBUG:root:getLength : field = (80, )
+DEBUG:root:mission, roll, frame = ISS027 E 11762
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11762'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11771
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11771'
+DEBUG:root:getLength : field = (160, )
+DEBUG:root:mission, roll, frame = ISS027 E 11771
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11771'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11787
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11787'
+DEBUG:root:getLength : field = (110, )
+DEBUG:root:mission, roll, frame = ISS027 E 11787
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11787'
+DEBUG:root:getLength : field = (-25, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 59
+DEBUG:root:Percent of color 0.0134826325411
+DEBUG:root:mission, roll, frame = ISS027 E 11796
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11796'
+DEBUG:root:getLength : field = (200, )
+DEBUG:root:mission, roll, frame = ISS027 E 11796
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11796'
+DEBUG:root:getLength : field = (-24, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11754
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11754'
+DEBUG:root:getLength : field = (116, )
+DEBUG:root:mission, roll, frame = ISS027 E 11754
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11754'
+DEBUG:root:getLength : field = (-31, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11763
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11763'
+DEBUG:root:getLength : field = (80, )
+DEBUG:root:mission, roll, frame = ISS027 E 11763
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11763'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11772
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11772'
+DEBUG:root:getLength : field = (95, )
+DEBUG:root:mission, roll, frame = ISS027 E 11772
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11772'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11788
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11788'
+DEBUG:root:getLength : field = (110, )
+DEBUG:root:mission, roll, frame = ISS027 E 11788
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11788'
+DEBUG:root:getLength : field = (-25, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 73
+DEBUG:root:Percent of color 0.0166819012797
+DEBUG:root:mission, roll, frame = ISS027 E 11797
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11797'
+DEBUG:root:getLength : field = (200, )
+DEBUG:root:mission, roll, frame = ISS027 E 11797
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11797'
+DEBUG:root:getLength : field = (-24, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11755
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11755'
+DEBUG:root:getLength : field = (116, )
+DEBUG:root:mission, roll, frame = ISS027 E 11755
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11755'
+DEBUG:root:getLength : field = (-31, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11764
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11764'
+DEBUG:root:getLength : field = (160, )
+DEBUG:root:mission, roll, frame = ISS027 E 11764
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11764'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0
+DEBUG:root:mission, roll, frame = ISS027 E 11773
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS027' AND roll='E' AND frame='  11773'
+DEBUG:root:getLength : field = (95, )
+DEBUG:root:mission, roll, frame = ISS027 E 11773
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS027' AND roll='E' AND frame='  11773'
+DEBUG:root:getLength : field = (-30, )
+DEBUG:root:total Pixels in resized image : 800 * 547 = 437600
+DEBUG:root:Number of non-zero pixels in binary array : 0
+DEBUG:root:Percent of color 0.0

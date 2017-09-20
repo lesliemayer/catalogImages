@@ -1,0 +1,231 @@
+INFO:root:log level : debug
+INFO:root:test dir : \\EO-Web\images\ESC\large\ISS050
+INFO:root:test list : E:\NadirLightning\nadirtest.txt
+INFO:root:model : C:\Users/lrmayer/My Documents/Mayer/CatalogImages/Models/LightningModel/nadir_lightning_RFC.pickle
+INFO:root:min Sun Elevation allowed : -20.0
+INFO:root:Classifying images ...
+DEBUG:root:fileList = ['ISS050-E-29096.jpg', 'ISS050-E-29100.jpg', 'ISS050-E-29102.jpg', 'ISS050-E-29104.jpg', 'ISS050-E-29105.jpg', 'ISS050-E-29106.jpg', 'ISS050-E-29107.jpg', 'ISS050-E-29108.jpg', 'ISS050-E-29109.jpg', 'ISS050-E-29110.jpg', 'ISS050-E-29116.jpg', 'ISS050-E-29117.jpg', 'ISS050-E-29120.jpg', 'ISS050-E-29123.jpg', 'ISS050-E-29124.jpg', 'ISS050-E-29126.jpg', 'ISS050-E-29128.jpg']
+DEBUG:root:imagePaths = \\EO-Web\images\ESC\large\ISS050/ISS050-E-29096.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29100.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29102.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29104.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29105.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29106.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29107.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29108.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29109.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29110.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29116.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29117.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29120.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29123.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29124.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29126.jpg
+\\EO-Web\images\ESC\large\ISS050/ISS050-E-29128.jpg
+INFO:root:nowStr = 2017-03-02_14-15
+INFO:root:Results file is E:\Nadir_Lightning\NadirTest_results.csv
+INFO:root:model name = C:\Users/lrmayer/My Documents/Mayer/CatalogImages/Models/LightningModel/nadir_lightning_RFC.pickle
+DEBUG:root:mission, roll, frame = ISS050 E 29096
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29096'
+DEBUG:root:getLength : field = (340, )
+DEBUG:root:mission, roll, frame = ISS050 E 29096
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29096'
+DEBUG:root:getLength : field = (-27, )
+INFO:root:Reading test file ISS050-E-29096.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29096.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29100
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29100'
+DEBUG:root:getLength : field = (340, )
+DEBUG:root:mission, roll, frame = ISS050 E 29100
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29100'
+DEBUG:root:getLength : field = (-26, )
+INFO:root:Reading test file ISS050-E-29100.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29100.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29102
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29102'
+DEBUG:root:getLength : field = (340, )
+DEBUG:root:mission, roll, frame = ISS050 E 29102
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29102'
+DEBUG:root:getLength : field = (-26, )
+INFO:root:Reading test file ISS050-E-29102.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29102.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29104
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29104'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29104
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29104'
+DEBUG:root:getLength : field = (-26, )
+INFO:root:Reading test file ISS050-E-29104.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29104.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29105
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29105'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29105
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29105'
+DEBUG:root:getLength : field = (-26, )
+INFO:root:Reading test file ISS050-E-29105.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29105.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29106
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29106'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29106
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29106'
+DEBUG:root:getLength : field = (-25, )
+INFO:root:Reading test file ISS050-E-29106.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29106.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29107
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29107'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29107
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29107'
+DEBUG:root:getLength : field = (-25, )
+INFO:root:Reading test file ISS050-E-29107.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29107.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29108
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29108'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29108
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29108'
+DEBUG:root:getLength : field = (-25, )
+INFO:root:Reading test file ISS050-E-29108.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29108.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29109
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29109'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29109
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29109'
+DEBUG:root:getLength : field = (-25, )
+INFO:root:Reading test file ISS050-E-29109.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29109.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29110
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29110'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29110
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29110'
+DEBUG:root:getLength : field = (-25, )
+INFO:root:Reading test file ISS050-E-29110.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29110.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29116
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29116'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29116
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29116'
+DEBUG:root:getLength : field = (-25, )
+INFO:root:Reading test file ISS050-E-29116.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29116.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29117
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29117'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29117
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29117'
+DEBUG:root:getLength : field = (-25, )
+INFO:root:Reading test file ISS050-E-29117.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29117.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29120
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29120'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29120
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29120'
+DEBUG:root:getLength : field = (-24, )
+INFO:root:Reading test file ISS050-E-29120.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29120.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29123
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29123'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29123
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29123'
+DEBUG:root:getLength : field = (-22, )
+INFO:root:Reading test file ISS050-E-29123.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29123.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29124
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29124'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29124
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29124'
+DEBUG:root:getLength : field = (-22, )
+INFO:root:Reading test file ISS050-E-29124.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29124.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29126
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29126'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29126
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29126'
+DEBUG:root:getLength : field = (-22, )
+INFO:root:Reading test file ISS050-E-29126.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29126.jpg,['non-nadir']
+DEBUG:root:mission, roll, frame = ISS050 E 29128
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS050' AND roll='E' AND frame='  29128'
+DEBUG:root:getLength : field = (290, )
+DEBUG:root:mission, roll, frame = ISS050 E 29128
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS050' AND roll='E' AND frame='  29128'
+DEBUG:root:getLength : field = (-22, )
+INFO:root:Reading test file ISS050-E-29128.jpg
+INFO:root:Prediction is ['non-nadir']
+INFO:root:
+ISS050-E-29128.jpg,['non-nadir']

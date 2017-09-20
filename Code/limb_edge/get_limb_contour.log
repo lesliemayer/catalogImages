@@ -1,0 +1,72 @@
+INFO:root:dataset, list = E:\BetterLightning  E:\BetterLightning\limb_edge.txt
+DEBUG:root:FileList : __init__ : list = E:\BetterLightning\limb_edge.txt
+DEBUG:root:fileList = ['ISS045-E-3619.jpg', 'ISS045-E-3628.jpg', 'ISS045-E-4992.jpg', 'ISS045-E-4993.jpg', 'ISS045-E-4994.jpg', 'ISS045-E-1555.jpg', '', 'ISS045-E-5290.jpg']
+DEBUG:root:imagePaths = E:\BetterLightning/ISS045-E-3619.jpg
+E:\BetterLightning/ISS045-E-3628.jpg
+E:\BetterLightning/ISS045-E-4992.jpg
+E:\BetterLightning/ISS045-E-4993.jpg
+E:\BetterLightning/ISS045-E-4994.jpg
+E:\BetterLightning/ISS045-E-1555.jpg
+E:\BetterLightning/
+E:\BetterLightning/ISS045-E-5290.jpg
+INFO:root:imagePaths is ['E:\\BetterLightning/ISS045-E-3619.jpg', 'E:\\BetterLightning/ISS045-E-3628.jpg', 'E:\\BetterLightning/ISS045-E-4992.jpg', 'E:\\BetterLightning/ISS045-E-4993.jpg', 'E:\\BetterLightning/ISS045-E-4994.jpg', 'E:\\BetterLightning/ISS045-E-1555.jpg', 'E:\\BetterLightning/', 'E:\\BetterLightning/ISS045-E-5290.jpg']
+DEBUG:root:mission, roll, frame = ISS045 E 3619
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS045' AND roll='E' AND frame='   3619'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS045 E 3619
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS045' AND roll='E' AND frame='   3619'
+DEBUG:root:getLength : field = (-72, )
+DEBUG:root:Sun elevation = -72
+DEBUG:root:Focal length = 28
+DEBUG:root:mission, roll, frame = ISS045 E 3628
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS045' AND roll='E' AND frame='   3628'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS045 E 3628
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS045' AND roll='E' AND frame='   3628'
+DEBUG:root:getLength : field = (-68, )
+DEBUG:root:Sun elevation = -68
+DEBUG:root:Focal length = 28
+DEBUG:root:mission, roll, frame = ISS045 E 4992
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS045' AND roll='E' AND frame='   4992'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS045 E 4992
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS045' AND roll='E' AND frame='   4992'
+DEBUG:root:getLength : field = (-75, )
+DEBUG:root:Sun elevation = -75
+DEBUG:root:Focal length = 28
+DEBUG:root:mission, roll, frame = ISS045 E 4993
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS045' AND roll='E' AND frame='   4993'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS045 E 4993
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS045' AND roll='E' AND frame='   4993'
+DEBUG:root:getLength : field = (-74, )
+DEBUG:root:Sun elevation = -74
+DEBUG:root:Focal length = 28
+DEBUG:root:mission, roll, frame = ISS045 E 4994
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS045' AND roll='E' AND frame='   4994'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS045 E 4994
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS045' AND roll='E' AND frame='   4994'
+DEBUG:root:getLength : field = (-73, )
+DEBUG:root:Sun elevation = -73
+DEBUG:root:Focal length = 28
+DEBUG:root:mission, roll, frame = ISS045 E 1555
+DEBUG:root:Getting fclt from camera table
+DEBUG:root:getField query: SELECT fclt FROM camera WHERE mission='ISS045' AND roll='E' AND frame='   1555'
+DEBUG:root:getLength : field = (28, )
+DEBUG:root:mission, roll, frame = ISS045 E 1555
+DEBUG:root:Getting elev from nadir table
+DEBUG:root:getField query: SELECT elev FROM nadir WHERE mission='ISS045' AND roll='E' AND frame='   1555'
+DEBUG:root:getLength : field = (-40, )
+DEBUG:root:Sun elevation = -40
+DEBUG:root:Focal length = 28

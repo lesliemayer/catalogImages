@@ -1,0 +1,1 @@
+python ML_classify_create_model.py F:\imagews\training --log info --model ../Models/FullDataModel/FullData --forest
